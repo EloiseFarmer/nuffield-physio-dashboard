@@ -1,0 +1,130 @@
+site_slug,display_name,type,match_confidence,matched_internal_name
+aberdeen,Aberdeen,Gym,100.0,Aberdeen Fitness & Wellbeing Centre
+aylesbury,Aylesbury,Gym,100.0,Aylesbury Fitness and Wellbeing
+london-battersea,Battersea,Gym,100,Battersea Fitness & Wellbeing Centre
+bishops-stortford,Bishops Stortford,Gym,100.0,Bishops Stortford Fitness & Wellbeing Centre
+london-bloomsbury,Bloomsbury,Gym,100,Bloomsbury Fitness & Wellbeing Centre
+bolton,Bolton,Gym,100.0,Bolton Fitness & Wellbeing Centre
+bournemouth,Bournemouth,Hospital/Clinic,100.0,Nuffield Health Bournemouth Hospital
+brentwood,Brentwood,Hospital/Clinic,100.0,Nuffield Health Brentwood Hospital
+brighton,Brighton,Hospital/Clinic,100.0,Nuffield Health Brighton Hospital
+bristol-clifton,Bristol,Gym,100,Bristol Fitness & Wellbeing Centre
+bristol,Bristol,Hospital/Clinic,100,Nuffield Health Bristol Hospital
+bristol-north,Bristol North,Gym,100.0,Bristol North Fitness & Wellbeing Centre
+bromley,Bromley,Gym,100.0,Bromley Fitness & Wellbeing Centre
+brondesbury-park,Brondesbury,Gym,100,Brondesbury Fitness & Wellbeing Centre
+cambridge-gym,Cambridge,Hospital/Clinic,81.8,Nuffield Health Cambridge Hospital
+cannock,Cannock,Gym,100.0,Cannock Fitness & Wellbeing Centre
+cardiff-bay,Cardiff & Vale - Cardiff Bay,Gym,100,Cardiff & Vale - Cardiff Bay
+cheam,Cheam,Gym,100.0,Cheam Fitness & Wellbeing Centre
+chelmsford,Chelmsford,Gym,100.0,Chelmsford Fitness & Wellbeing Centre
+cheltenham,Cheltenham,Hospital/Clinic,100.0,Nuffield Health Cheltenham Hospital
+chester,Chester,Hospital/Clinic,100.0,Nuffield Health Chester Hospital
+chesterfield,Chesterfield,Gym,100.0,Chesterfield Fitness & Wellbeing Centre
+chichester,Chichester,Hospital/Clinic,100.0,Nuffield Health Chichester Hospital
+chigwell,Chigwell,Gym,100.0,Chigwell Fitness & Wellbeing Centre
+chingford,Chingford,Gym,100.0,Chingford Fitness & Wellbeing Centre
+chislehurst,Chislehurst,Gym,100.0,Chislehurst Fitness & Wellbeing Centre
+cottingley,Cottingley,Gym,100.0,Cottingley Fitness & Wellbeing centre
+covent-garden,Covent Garden,Gym,100,Covent Garden Fitness & Wellbeing Centre
+crawley,Crawley,Gym,100.0,Crawley Fitness & Wellbeing Centre
+croydon,Croydon,Gym,100.0,Croydon Fitness & Wellbeing Centre
+croydon-central,Croydon Central,Gym,100.0,Croydon Central Fitness & Wellbeing Centre
+cwmbran,Cwmbran,Gym,100.0,Cwmbran Fitness & Wellbeing Centre
+derby-gym,Derby,Gym,100,Derby Fitness & Wellbeing Centre
+derby,Derby,Hospital/Clinic,100,Nuffield Health Derby Hospital
+devonshire,Devonshire,Gym,100.0,Devonshire Fitness & Wellbeing Centre
+didsbury,Didsbury,Gym,100.0,Didsbury Fitness & Wellbeing Centre
+ealing,Ealing,Gym,100.0,Ealing Fitness & Wellbeing Centre
+east-kilbride,East Kilbride,Gym,100.0,East Kilbride Fitness & Wellbeing Centre
+edinburgh,Edinburgh,Hospital/Clinic,100.0,Edinburgh Medical Centre
+edinburgh-fountain-park,Edinburgh Fountain Park,Gym,100.0,Edinburgh Fountain Park Fitness & Wellbeing Centre
+edinburgh-omni,Edinburgh Omni,Gym,100.0,Edinburgh Omni Fitness & Wellbeing Centre
+enfield,Enfield,Gym,100.0,Enfield Fitness & Wellbeing Centre
+exeter,Exeter,Hospital/Clinic,100.0,Nuffield Health Exeter Hospital
+farnborough,Farnborough,Gym,100.0,Farnborough Fitness & Wellbeing Centre
+farnham,Farnham,Gym,100.0,Farnham Fitness & Wellbeing Centre
+friern-barnet-london,Friern Barnet,Gym,100,Friern Barnet Fitness & Wellbeing Centre
+glasgow-giffnock,Glasgow Giffnock,Gym,100,Glasgow Giffnock Fitness & Wellbeing Centre
+glasgow,Glasgow Central,Gym,100,Glasgow Central Fitness & Wellbeing Centre
+glasgow-hospital,Glasgow,Hospital/Clinic,100,Nuffield Health Glasgow Hospital
+gloucester,Gloucester,Gym,100.0,Gloucester Fitness & Wellbeing Centre
+gosforth,Gosforth,Gym,100.0,Gosforth Fitness & Wellbeing Centre
+guildford-gym,Guildford,Gym,100,Guildford Fitness & Wellbeing Centre
+guildford,Guildford,Hospital/Clinic,100,Nuffield Health Guildford Hospital
+guiseley,Guiseley,Gym,100.0,Guiseley Fitness & Wellbeing Centre
+hampshire,Farnborough,Gym,100,Farnborough Fitness & Wellbeing Centre
+harrogate,Harrogate,Gym,100.0,Harrogate Fitness & Wellbeing Centre
+haywards-heath,Haywards Heath,Hospital/Clinic,100.0,Nuffield Health Haywards Heath Hospital
+hemel-hempstead,Hemel Hempstead,Gym,100.0,Hemel Hempstead Fitness & Wellbeing Centre
+london-hendon,Hendon,Gym,100,Hendon Fitness & Wellbeing Centre
+hereford,Hereford,Hospital/Clinic,100.0,Nuffield Health Hereford Hospital
+ilford,Ilford,Gym,100.0,Ilford Fitness & Wellbeing Centre
+ipswich,Ipswich,Hospital/Clinic,100.0,Nuffield Health Ipswich Hospital
+islington-london,Islington,Gym,100,Islington Fitness&Wellbeing Centre
+kingston,Kingston,Gym,100.0,Kingston Fitness & Wellbeing Centre
+leamington-spa,Warwickshire,Hospital/Clinic,100,Nuffield Health Warwickshire Hospital
+leatherhead,Leatherhead,Gym,100.0,Leatherhead Fitness & Wellbeing Centre
+leeds-gym,Leeds,Gym,100,Leeds Fitness & Wellbeing Centre
+leeds,Leeds,Hospital/Clinic,100,Nuffield Health Leeds Hospital
+leicester-gym,Leicester,Gym,100,Leicester Fitness & Wellbeing Centre
+leicester,Leicester,Hospital/Clinic,100,Nuffield Health Leicester Hospital
+letchworth,Letchworth,Gym,100.0,Letchworth Fitness & Wellbeing Centre
+liverpool,Liverpool,Gym,100.0,Liverpool Fitness & Wellbeing Centre
+london-canary-wharf,Canary Wharf,Hospital/Clinic,100,Canary Wharf Medical Centre
+london-city,City (Cousin Lane),Gym,100,City (Cousin Lane) Fitness & Wellbeing Centre
+london-west-end,West End,Hospital/Clinic,100,West End Medical Centre
+mihp,MIHP,Gym,100.0,Nuffield Health MIHP
+manchester-printworks,Manchester Printworks,Gym,100.0,Manchester Printworks Fitness & Wellbeing Centre
+milngavie,Milngavie,Gym,100.0,Milngavie Fitness & Wellbeing Centre
+milton-keynes,Milton Keynes,Gym,100.0,Milton Keynes Fitness & Wellbeing Centre
+moorgate,Moorgate,Gym,100,Moorgate Fitness and Wellbeing
+newbury,Newbury,Gym,100.0,Newbury Fitness & Wellbeing Centre
+newcastle,Newcastle-upon-Tyne,Hospital/Clinic,100,Nuffield Health Newcastle-upon-Tyne Hospital
+newcastle-under-lyme,Newcastle-under-Lyme,Hospital/Clinic,100,Nuffield Health Newcastle-under-Lyme Hospital
+norbury,Norbury,Gym,100.0,Norbury Fitness & Wellbeing Centre
+northampton,Northampton,Gym,100.0,Northampton Fitness & Wellbeing Centre
+norwich,Norwich,Gym,100.0,Norwich Fitness & Wellbeing Centre
+nottingham,Nottingham,Gym,100.0,Nottingham Fitness & Wellbeing Centre
+nuneaton,Nuneaton,Gym,100.0,Nuneaton Fitness & Wellbeing Centre
+oxford,Oxford,Hospital/Clinic,100.0,Nuffield Health Oxford Hospital
+oxfordshire,Oxfordshire,Gym,100.0,Oxfordshire Fitness & Wellbeing Centre
+london-paddington,Paddington,Gym,100,Paddington Fitness & Wellbeing Centre
+plymouth,Plymouth,Hospital/Clinic,100.0,Nuffield Health Plymouth Hospital
+portsmouth,Portsmouth,Gym,100.0,Portsmouth Fitness & Wellbeing Centre
+preston,Preston,Gym,100.0,Preston Fitness & Wellbeing Centre
+reading,Reading,Gym,100.0,Reading Fitness & Wellbeing Centre
+romford,Romford,Gym,100.0,Romford Fitness & Wellbeing Centre
+rugby,Rugby,Gym,100.0,Rugby Fitness & Wellbeing Centre
+sheffield,Sheffield,Gym,100.0,Sheffield Fitness & Wellbeing Centre
+shipley,Shipley,Gym,100.0,Shipley Fitness & Wellbeing Centre
+shoreditch,Shoreditch,Gym,100,Shoreditch Fitness and Wellbeing
+shrewsbury,Shrewsbury,Hospital/Clinic,100.0,Nuffield Health Shrewsbury Hospital
+st-albans,St Albans,Gym,100.0,St Albans Fitness & Wellbeing Centre
+stockley-park,Stockley Park,Gym,100.0,Stockley Park
+stoke-poges,Stoke Poges,Gym,100.0,Stoke Poges Fitness & Wellbeing Centre
+sunbury,Sunbury,Gym,100.0,Sunbury Fitness & Wellbeing Centre
+surbiton,Surbiton,Gym,100.0,Surbiton Fitness & Wellbeing Centre
+swindon,Swindon,Gym,100.0,Swindon Fitness & Wellbeing Centre
+taunton-gym,Taunton,Gym,100,Taunton Fitness & Wellbeing Centre
+taunton,Taunton,Hospital/Clinic,100,Nuffield Health Taunton Hospital
+tees,Stockton-on-Tees,Hospital/Clinic,100,Nuffield Health Stockton-on-Tees Hospital
+telford,Telford,Gym,100.0,Telford Fitness & Wellbeing Centre
+the-vale,Cardiff & Vale - Vale Hotel,Gym,100,Cardiff & Vale - Vale Hotel
+tunbridge-wells-gym,Tunbridge Wells,Gym,100,Tunbridge Wells Fitness & Wellbeing Centre
+tunbridge-wells,Tunbridge Wells,Hospital/Clinic,100,Nuffield Health Tunbridge Wells Hospital
+wakefield,Wakefield,Gym,100.0,Wakefield Fitness & Wellbeing centre
+london-wandsworth,Wandsworth,Gym,100,Wandsworth Fitness & Wellbeing Centre
+wandsworth-southside,Wandsworth Southside,Gym,100.0,Wandsworth Southside Fitness & Wellbeing Centre
+west-byfleet,West Byfleet,Gym,100.0,West Byfleet Fitness & Wellbeing Centre
+weston-super-mare,Weston-Super-Mare,Gym,100.0,Weston-Super-Mare
+woking,Woking,Hospital/Clinic,100.0,Nuffield Health Woking Hospital
+wolverhampton-gym,Wolverhampton,Gym,100,Wolverhampton Fitness & Wellbeing Centre
+wolverhampton,Wolverhampton,Hospital/Clinic,100,Nuffield Health Wolverhampton Hospital
+york,York,Hospital/Clinic,100.0,Nuffield Health York Hospital
+barbican-medical-centre,Barbican,Gym,100,Barbican Fitness & Wellbeing centre
+warwick,Warwick,Gym,100.0,Warwick Fitness & Wellbeing Centre
+hertford,Hertford,Gym,100.0,Hertford Fitness & Wellbeing Centre
+medway,Medway,Gym,100.0,Medway Fitness & Wellbeing Centre
+wimbledon,Wimbledon,Gym,100.0,Wimbledon Fitness & Wellbeing Centre
+birmingham-rubery,Birmingham Fitness and Wellbeing Centre,Gym,100,Birmingham Fitness and Wellbeing Centre

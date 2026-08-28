@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nuffield Health | Physio Availability Dashboard</title>
+<style>
+  :root {
+    --teal: #0a5c6a;
+    --teal-dark: #08424c;
+    --green: #00a200;
+    --green-light: #e6f5e6;
+    --amber: #b8790a;
+    --amber-light: #fdf3e0;
+    --red: #b3261e;
+    --red-light: #fbe9e8;
+    --ink: #1f2d2f;
+    --ink-soft: #4a5a5c;
+    --line: #dde3e3;
+    --paper: #f6f8f8;
+    --white: #ffffff;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    color: var(--ink);
+    background: var(--paper);
+    font-size: 14px;
+  }
+  header {
+    background: linear-gradient(135deg, var(--teal), var(--teal-dark));
+    color: white;
+    padding: 18px 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+  header .brand { display: flex; align-items: center; gap: 12px; }
+  header .brand .mark {
+    width: 34px; height: 34px; background: var(--green); border-radius: 8px;
+    display: flex; align-items: center; justify-content: center; font-weight: 700; font-size: 20px;
+    flex-shrink: 0;
+  }
+  header h1 { font-size: 17px; margin: 0; font-weight: 700; }
+  header p { margin: 2px 0 0; font-size: 12px; opacity: 0.85; }
+  header .updated { font-size: 12px; opacity: 0.9; text-align: right; }
+
+  .kpis {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    background: var(--white);
+    border-bottom: 3px solid var(--green);
+  }
+  .kpi {
+    padding: 16px 12px;
+    text-align: center;
+    border-right: 1px solid var(--line);
+  }
+  .kpi:last-child { border-right: none; }
+  .kpi .num { font-size: 26px; font-weight: 700; line-height: 1; color: var(--teal-dark); }
+  .kpi .num.green { color: var(--green); }
+  .kpi .num.amber { color: var(--amber); }
+  .kpi .lbl { font-size: 10.5px; color: var(--ink-soft); text-transform: uppercase; letter-spacing: 0.04em; margin-top: 6px; }
+
+  .controls {
+    background: var(--paper);
+    padding: 14px 24px;
+    display: flex;
+    gap: 14px;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    border-bottom: 1px solid var(--line);
+  }
+  .controls .search {
+    flex: 1 1 240px;
+    display: flex;
+    align-items: center;
+    background: white;
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    padding: 8px 12px;
+  }
+  .controls .search input {
+    border: none; outline: none; flex: 1; font-size: 14px; background: transparent;
+  }
+  .field { display: flex; flex-direction: column; gap: 4px; }
+  .field label { font-size: 10.5px; color: var(--ink-soft); text-transform: uppercase; letter-spacing: 0.04em; }
+  .field select {
+    padding: 7px 10px; border: 1px solid var(--line); border-radius: 8px;
+    background: white; font-size: 13px; color: var(--ink); min-width: 120px;
+  }
+  .count { font-size: 12px; color: var(--ink-soft); align-self: center; margin-left: auto; }
+
+  table { width: 100%; border-collapse: collapse; background: white; }
+  thead th {
+    background: var(--teal);
+    color: white;
+    text-align: left;
+    padding: 10px 14px;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    font-weight: 600;
+    cursor: pointer;
+    user-select: none;
+    white-space: nowrap;
+  }
+  thead th:hover { background: var(--teal-dark); }
+  thead th.num, td.num { text-align: right; }
+  tbody tr { border-top: 1px solid var(--line); }
+  tbody tr:hover { background: var(--paper); }
+  td { padding: 12px 14px; vertical-align: top; }
+  .site-name { font-weight: 600; color: var(--teal-dark); }
+  .badge {
+    display: inline-block; padding: 2px 9px; border-radius: 999px;
+    font-size: 11px; font-weight: 600;
+  }
+  .badge.gym { background: #e6f0f5; color: #1e5c78; }
+  .badge.hospital { background: #f0e6f5; color: #6a2e8f; }
+  .yn-yes { color: var(--green); font-weight: 600; }
+  .yn-no { color: var(--ink-soft); }
+  .pill {
+    display: inline-block; min-width: 26px; text-align: center;
+    padding: 2px 8px; border-radius: 999px; font-weight: 700; font-size: 12.5px;
+  }
+  .pill.zero { background: #eceeee; color: var(--ink-soft); }
+  .pill.low { background: var(--amber-light); color: var(--amber); }
+  .pill.ok { background: var(--green-light); color: var(--green); }
+  .next-avail { font-weight: 600; }
+  .next-avail.none { color: var(--ink-soft); font-weight: 400; font-style: italic; }
+  .links a {
+    display: block; font-size: 12.5px; text-decoration: none; margin-bottom: 3px;
+  }
+  .links a.book { color: var(--green); font-weight: 600; }
+  .links a.profile { color: var(--teal); }
+  .links .none { color: var(--ink-soft); font-size: 12.5px; }
+
+  footer { padding: 18px 24px; font-size: 11.5px; color: var(--ink-soft); text-align: center; }
+
+  @media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
+  a:focus-visible, select:focus-visible, input:focus-visible, th:focus-visible {
+    outline: 2px solid var(--teal); outline-offset: 2px;
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="brand">
+    <div class="mark">+</div>
+    <div>
+      <h1>Nuffield Health</h1>
+      <p>Physio Availability Dashboard</p>
+    </div>
+  </div>
+  <div class="updated" id="lastUpdated">Loading...</div>
+</header>
+
+<div class="kpis" id="kpiRow"></div>
+
+<div class="controls">
+  <div class="search">
+    <input type="text" id="searchInput" placeholder="Search by site name...">
+  </div>
+  <div class="field">
+    <label for="typeFilter">Type</label>
+    <select id="typeFilter"><option value="all">All</option></select>
+  </div>
+  <div class="field">
+    <label for="bookingFilter">Online booking</label>
+    <select id="bookingFilter">
+      <option value="all">All</option>
+      <option value="yes">Yes</option>
+      <option value="no">No</option>
+    </select>
+  </div>
+  <div class="field">
+    <label for="availFilter">Availability</label>
+    <select id="availFilter">
+      <option value="all">All</option>
+      <option value="has_availability">Has availability</option>
+      <option value="zero_availability">Zero availability</option>
+      <option value="no_online_booking">No online booking</option>
+    </select>
+  </div>
+  <div class="field">
+    <label for="sortSelect">Sort by</label>
+    <select id="sortSelect">
+      <option value="name-asc">Name A→Z</option>
+      <option value="days-asc">Soonest available</option>
+      <option value="slots14-desc">Most slots (2 wks)</option>
+      <option value="slots14-asc">Fewest slots (2 wks)</option>
+    </select>
+  </div>
+  <div class="count" id="resultCount"></div>
+</div>
+
+<table>
+  <thead>
+    <tr>
+      <th data-sort="name">Site</th>
+      <th data-sort="type">Type</th>
+      <th class="num" data-sort="total_physios" title="Total physios who work at this site, per the site's staff page">Total Physios</th>
+      <th class="num" data-sort="physios" title="Physios who currently have at least one available slot, based on this scrape">Physios w/ Slots</th>
+      <th>Online booking</th>
+      <th data-sort="days">Next available</th>
+      <th class="num" data-sort="slots7">Slots (7 days)</th>
+      <th class="num" data-sort="slots14">Slots (2 wks)</th>
+      <th>Links</th>
+    </tr>
+  </thead>
+  <tbody id="tableBody"></tbody>
+</table>
+
+<footer>Data reflects online booking widget availability at time of last scrape. Updated weekly.</footer>
+
+<script>
+let DATA = null;
+let sortState = { key: "name", dir: "asc" };
+
+function pillClass(n) {
+  if (n === 0) return "zero";
+  if (n <= 3) return "low";
+  return "ok";
+}
+
+function badgeClass(type) {
+  return type === "Gym" ? "gym" : "hospital";
+}
+
+function render() {
+  const search = document.getElementById("searchInput").value.toLowerCase();
+  const typeF = document.getElementById("typeFilter").value;
+  const bookingF = document.getElementById("bookingFilter").value;
+  const availF = document.getElementById("availFilter").value;
+
+  let sites = DATA.sites.filter(s => {
+    if (search && !s.name.toLowerCase().includes(search)) return false;
+    if (typeF !== "all" && s.type !== typeF) return false;
+    if (bookingF === "yes" && !s.online_booking) return false;
+    if (bookingF === "no" && s.online_booking) return false;
+    if (availF !== "all" && s.status !== availF) return false;
+    return true;
+  });
+
+  sites.sort((a, b) => {
+    let av, bv;
+    switch (sortState.key) {
+      case "days":
+        av = a.days_until_available ?? 9999; bv = b.days_until_available ?? 9999; break;
+      case "slots14": av = a.slots_14_days; bv = b.slots_14_days; break;
+      case "slots7": av = a.slots_7_days; bv = b.slots_7_days; break;
+      case "total_physios": av = a.total_physios; bv = b.total_physios; break;
+      case "physios": av = a.physios_with_slots; bv = b.physios_with_slots; break;
+      case "type": av = a.type; bv = b.type; break;
+      default: av = a.name.toLowerCase(); bv = b.name.toLowerCase();
+    }
+    if (av < bv) return sortState.dir === "asc" ? -1 : 1;
+    if (av > bv) return sortState.dir === "asc" ? 1 : -1;
+    return 0;
+  });
+
+  document.getElementById("resultCount").textContent = `${sites.length} sites`;
+
+  const body = document.getElementById("tableBody");
+  body.innerHTML = sites.map(s => `
+    <tr>
+      <td><span class="site-name">${s.name}</span></td>
+      <td><span class="badge ${badgeClass(s.type)}">${s.type}</span></td>
+      <td class="num">${s.total_physios}</td>
+      <td class="num">${s.physios_with_slots}</td>
+      <td>${s.online_booking ? '<span class="yn-yes">✓ Yes</span>' : '<span class="yn-no">–</span>'}</td>
+      <td>${s.next_available
+          ? `<span class="next-avail">${s.next_available.split(' ').slice(0,3).join(' ')}</span>`
+          : '<span class="next-avail none">No online slots</span>'}</td>
+      <td class="num"><span class="pill ${pillClass(s.slots_7_days)}">${s.slots_7_days}</span></td>
+      <td class="num"><span class="pill ${pillClass(s.slots_14_days)}">${s.slots_14_days}</span></td>
+      <td class="links">
+        ${s.online_booking
+          ? `<a class="book" href="${s.book_url}" target="_blank" rel="noopener">📅 Book now</a>`
+          : '<span class="none">No online booking</span>'}
+        <a class="profile" href="${s.profile_url}" target="_blank" rel="noopener">↗ Site profile</a>
+      </td>
+    </tr>
+  `).join("");
+}
+
+function buildKpis() {
+  const s = DATA.summary;
+  const kpis = [
+    { num: s.total_sites, lbl: "Total sites" },
+    { num: s.total_physios_listed, lbl: "Total physios listed", cls: "green" },
+    { num: s.sites_with_online_booking, lbl: "Sites with online booking" },
+    { num: s.sites_with_slots_14_days, lbl: "Sites with slots (2 wks)" },
+    { num: s.total_appointments_14_days, lbl: "Total appointments (2 wks)" },
+    { num: s.total_appointments_7_days, lbl: "Total appointments (7 days)" },
+    { num: s.pct_no_appt_7_days + "%", lbl: "Sites with no appt (7 days)", cls: "amber" },
+  ];
+  document.getElementById("kpiRow").innerHTML = kpis.map(k =>
+    `<div class="kpi"><div class="num ${k.cls || ''}">${k.num}</div><div class="lbl">${k.lbl}</div></div>`
+  ).join("");
+}
+
+function buildTypeFilter() {
+  const types = [...new Set(DATA.sites.map(s => s.type))].sort();
+  const sel = document.getElementById("typeFilter");
+  types.forEach(t => {
+    const opt = document.createElement("option");
+    opt.value = t; opt.textContent = t;
+    sel.appendChild(opt);
+  });
+}
+
+function init() {
+  document.getElementById("lastUpdated").textContent = `Last updated: ${DATA.last_updated}`;
+  buildKpis();
+  buildTypeFilter();
+  render();
+
+  document.getElementById("searchInput").addEventListener("input", render);
+  document.getElementById("typeFilter").addEventListener("change", render);
+  document.getElementById("bookingFilter").addEventListener("change", render);
+  document.getElementById("availFilter").addEventListener("change", render);
+  document.getElementById("sortSelect").addEventListener("change", (e) => {
+    const [key, dir] = e.target.value.split("-");
+    sortState = { key: key === "name" ? "name" : key === "soonest" ? "days" : key, dir };
+    if (e.target.value === "days-asc") sortState = { key: "days", dir: "asc" };
+    render();
+  });
+  document.querySelectorAll("th[data-sort]").forEach(th => {
+    th.addEventListener("click", () => {
+      const key = th.dataset.sort;
+      sortState.dir = (sortState.key === key && sortState.dir === "asc") ? "desc" : "asc";
+      sortState.key = key;
+      render();
+    });
+  });
+}
+
+fetch("dashboard_data.json")
+  .then(r => r.json())
+  .then(data => { DATA = data; init(); })
+  .catch(err => {
+    document.getElementById("tableBody").innerHTML =
+      `<tr><td colspan="8" style="padding:24px;text-align:center;color:var(--red);">
+        Could not load dashboard_data.json - make sure it's in the same folder as this file,
+        and that you're viewing this via a local server or GitHub Pages (not opened directly
+        as a file, which browsers block from reading local JSON).
+      </td></tr>`;
+    console.error(err);
+  });
+</script>
+
+</body>
+</html>

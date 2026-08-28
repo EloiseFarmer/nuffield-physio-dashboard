@@ -1,0 +1,130 @@
+site_slug,status,total_slots_found,next_available_date,days_until_available,physio_count_with_availability
+aberdeen,has_availability,20,Tuesday 01 September 2026,4.0,1
+aylesbury,has_availability,12,Wednesday 02 September 2026,5.0,1
+london-battersea,has_availability,45,Tuesday 01 September 2026,4.0,1
+bishops-stortford,zero_availability,0,,,0
+london-bloomsbury,has_availability,10,Friday 28 August 2026,0.0,1
+bolton,has_availability,15,Tuesday 01 September 2026,4.0,1
+bournemouth,has_availability,4,Friday 04 September 2026,7.0,1
+brentwood,zero_availability,0,,,0
+brighton,has_availability,17,Thursday 03 September 2026,6.0,2
+bristol-clifton,has_availability,4,Friday 04 September 2026,7.0,1
+bristol,zero_availability,0,,,0
+bristol-north,has_availability,2,Wednesday 09 September 2026,12.0,2
+bromley,has_availability,24,Wednesday 02 September 2026,5.0,1
+brondesbury-park,has_availability,3,Friday 04 September 2026,7.0,1
+cambridge-gym,has_availability,2,Thursday 10 September 2026,13.0,1
+cannock,zero_availability,0,,,0
+cardiff-bay,zero_availability,0,,,0
+cheam,zero_availability,0,,,0
+chelmsford,has_availability,1,Wednesday 02 September 2026,5.0,1
+cheltenham,has_availability,33,Tuesday 01 September 2026,4.0,8
+chester,has_availability,3,Wednesday 02 September 2026,5.0,2
+chesterfield,zero_availability,0,,,0
+chichester,zero_availability,0,,,0
+chigwell,zero_availability,0,,,0
+chingford,has_availability,5,Tuesday 08 September 2026,11.0,1
+chislehurst,zero_availability,0,,,0
+cottingley,has_availability,8,Wednesday 02 September 2026,5.0,1
+covent-garden,has_availability,21,Friday 28 August 2026,0.0,3
+crawley,has_availability,34,Thursday 03 September 2026,6.0,2
+croydon,zero_availability,0,,,0
+croydon-central,has_availability,18,Tuesday 01 September 2026,4.0,1
+cwmbran,has_availability,5,Wednesday 09 September 2026,12.0,1
+derby-gym,has_availability,9,Tuesday 01 September 2026,4.0,2
+derby,zero_availability,0,,,0
+devonshire,has_availability,10,Wednesday 09 September 2026,12.0,1
+didsbury,has_availability,14,Tuesday 01 September 2026,4.0,2
+ealing,has_availability,5,Tuesday 01 September 2026,4.0,1
+east-kilbride,zero_availability,0,,,0
+edinburgh,zero_availability,0,,,0
+edinburgh-fountain-park,zero_availability,0,,,0
+edinburgh-omni,has_availability,3,Wednesday 09 September 2026,12.0,2
+enfield,has_availability,12,Wednesday 02 September 2026,5.0,1
+exeter,zero_availability,0,,,0
+farnborough,has_availability,16,Thursday 03 September 2026,6.0,1
+farnham,has_availability,1,Thursday 10 September 2026,13.0,1
+friern-barnet-london,zero_availability,0,,,0
+glasgow-giffnock,zero_availability,0,,,0
+glasgow,has_availability,1,Wednesday 09 September 2026,12.0,1
+glasgow-hospital,has_availability,21,Tuesday 01 September 2026,4.0,4
+gloucester,has_availability,31,Tuesday 01 September 2026,4.0,2
+gosforth,zero_availability,0,,,0
+guildford-gym,zero_availability,0,,,0
+guildford,zero_availability,0,,,0
+guiseley,zero_availability,0,,,0
+hampshire,has_availability,13,Wednesday 02 September 2026,5.0,3
+harrogate,has_availability,26,Tuesday 01 September 2026,4.0,1
+haywards-heath,has_availability,2,Tuesday 08 September 2026,11.0,1
+hemel-hempstead,zero_availability,0,,,0
+london-hendon,zero_availability,0,,,0
+hereford,has_availability,13,Thursday 03 September 2026,6.0,1
+ilford,has_availability,3,Wednesday 09 September 2026,12.0,1
+ipswich,zero_availability,0,,,0
+islington-london,has_availability,13,Monday 07 September 2026,10.0,2
+kingston,has_availability,8,Monday 07 September 2026,10.0,2
+leamington-spa,has_availability,13,Friday 28 August 2026,0.0,2
+leatherhead,has_availability,1,Thursday 10 September 2026,13.0,1
+leeds-gym,zero_availability,0,,,0
+leeds,has_availability,67,Friday 28 August 2026,0.0,8
+leicester-gym,has_availability,4,Tuesday 01 September 2026,4.0,1
+leicester,has_availability,6,Thursday 03 September 2026,6.0,2
+letchworth,has_availability,4,Tuesday 08 September 2026,11.0,1
+liverpool,has_availability,28,Tuesday 01 September 2026,4.0,2
+london-canary-wharf,zero_availability,0,,,0
+london-city,has_availability,14,Tuesday 01 September 2026,4.0,1
+london-west-end,has_availability,3,Tuesday 01 September 2026,4.0,1
+mihp,has_availability,13,Wednesday 02 September 2026,5.0,1
+manchester-printworks,zero_availability,0,,,0
+milngavie,has_availability,6,Friday 04 September 2026,7.0,1
+milton-keynes,has_availability,11,Wednesday 02 September 2026,5.0,1
+moorgate,has_availability,34,Tuesday 01 September 2026,4.0,3
+newbury,has_availability,3,Thursday 10 September 2026,13.0,1
+newcastle,zero_availability,0,,,0
+newcastle-under-lyme,zero_availability,0,,,0
+norbury,zero_availability,0,,,0
+northampton,zero_availability,0,,,0
+norwich,has_availability,24,Saturday 29 August 2026,1.0,1
+nottingham,has_availability,25,Tuesday 01 September 2026,4.0,3
+nuneaton,has_availability,6,Thursday 03 September 2026,6.0,1
+oxford,zero_availability,0,,,0
+oxfordshire,zero_availability,0,,,0
+london-paddington,zero_availability,0,,,0
+plymouth,has_availability,1,Tuesday 08 September 2026,11.0,1
+portsmouth,has_availability,13,Monday 07 September 2026,10.0,1
+preston,has_availability,7,Tuesday 01 September 2026,4.0,1
+reading,has_availability,7,Friday 04 September 2026,7.0,1
+romford,has_availability,7,Tuesday 08 September 2026,11.0,1
+rugby,has_availability,14,Wednesday 02 September 2026,5.0,1
+sheffield,has_availability,18,Monday 07 September 2026,10.0,2
+shipley,has_availability,7,Monday 07 September 2026,10.0,2
+shoreditch,has_availability,8,Friday 28 August 2026,0.0,1
+shrewsbury,has_availability,2,Wednesday 02 September 2026,5.0,1
+st-albans,has_availability,46,Friday 28 August 2026,0.0,2
+stockley-park,zero_availability,0,,,0
+stoke-poges,has_availability,16,Thursday 03 September 2026,6.0,1
+sunbury,zero_availability,0,,,0
+surbiton,has_availability,44,Friday 28 August 2026,0.0,1
+swindon,zero_availability,0,,,0
+taunton-gym,zero_availability,0,,,0
+taunton,zero_availability,0,,,0
+tees,has_availability,14,Tuesday 01 September 2026,4.0,2
+telford,zero_availability,0,,,0
+the-vale,has_availability,1,Monday 07 September 2026,10.0,1
+tunbridge-wells-gym,zero_availability,0,,,0
+tunbridge-wells,has_availability,1,Monday 07 September 2026,10.0,1
+wakefield,zero_availability,0,,,0
+london-wandsworth,zero_availability,0,,,0
+wandsworth-southside,has_availability,8,Wednesday 02 September 2026,5.0,2
+west-byfleet,has_availability,7,Tuesday 08 September 2026,11.0,1
+weston-super-mare,zero_availability,0,,,0
+woking,has_availability,1,Wednesday 09 September 2026,12.0,1
+wolverhampton-gym,zero_availability,0,,,0
+wolverhampton,zero_availability,0,,,0
+york,zero_availability,0,,,0
+barbican-medical-centre,has_availability,44,Tuesday 01 September 2026,4.0,3
+warwick,has_availability,15,Friday 28 August 2026,0.0,1
+hertford,zero_availability,0,,,0
+medway,has_availability,1,Thursday 10 September 2026,13.0,1
+wimbledon,zero_availability,0,,,0
+birmingham-rubery,no_online_booking,0,,,0
