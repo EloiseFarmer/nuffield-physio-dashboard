@@ -32,7 +32,10 @@ def parse_slot_date(date_str: str) -> date:
 # Birmingham (and possibly other sites we haven't found yet) use a different
 # booking URL pattern than the rest. Map any such special cases here.
 SPECIAL_CASE_URLS = {
-    "birmingham-rubery": "https://www.nuffieldhealth.com/gyms/birmingham-rubery/services/physiotherapy",
+    # Birmingham's booking-widget slug is "birmingham" - different from its
+    # marketing-page slug "birmingham-rubery" (which is used in scrape_physio_roster.py
+    # for the physio roster, since that's the correct slug there instead)
+    "birmingham-rubery": "https://book.nuffieldhealth.com/physio/appointments/birmingham",
 }
 
 
