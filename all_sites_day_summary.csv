@@ -105,7 +105,7 @@ bolton,Friday 25 September 2026,False,0
 bolton,Saturday 26 September 2026,False,0
 bolton,Sunday 27 September 2026,False,0
 bournemouth,Monday 7 September 2026,False,0
-bournemouth,Tuesday 8 September 2026,True,2
+bournemouth,Tuesday 8 September 2026,True,1
 bournemouth,Wednesday 9 September 2026,True,0
 bournemouth,Thursday 10 September 2026,True,0
 bournemouth,Friday 11 September 2026,True,0
@@ -150,17 +150,17 @@ brighton,Monday 7 September 2026,False,0
 brighton,Tuesday 8 September 2026,True,0
 brighton,Wednesday 9 September 2026,True,1
 brighton,Thursday 10 September 2026,True,1
-brighton,Friday 11 September 2026,True,0
+brighton,Friday 11 September 2026,True,2
 brighton,Saturday 12 September 2026,True,0
 brighton,Sunday 13 September 2026,True,0
-brighton,Monday 14 September 2026,True,3
-brighton,Tuesday 15 September 2026,True,3
+brighton,Monday 14 September 2026,True,4
+brighton,Tuesday 15 September 2026,True,8
 brighton,Wednesday 16 September 2026,True,9
-brighton,Thursday 17 September 2026,True,2
-brighton,Friday 18 September 2026,True,2
+brighton,Thursday 17 September 2026,True,3
+brighton,Friday 18 September 2026,True,7
 brighton,Saturday 19 September 2026,True,0
 brighton,Sunday 20 September 2026,True,0
-brighton,Monday 21 September 2026,True,4
+brighton,Monday 21 September 2026,True,11
 brighton,Tuesday 22 September 2026,False,0
 brighton,Wednesday 23 September 2026,False,0
 brighton,Thursday 24 September 2026,False,0
@@ -380,7 +380,7 @@ cheltenham,Sunday 27 September 2026,False,0
 chester,Monday 7 September 2026,False,0
 chester,Tuesday 8 September 2026,True,0
 chester,Wednesday 9 September 2026,True,0
-chester,Thursday 10 September 2026,True,1
+chester,Thursday 10 September 2026,True,0
 chester,Friday 11 September 2026,True,0
 chester,Saturday 12 September 2026,True,0
 chester,Sunday 13 September 2026,True,0
@@ -388,7 +388,7 @@ chester,Monday 14 September 2026,True,0
 chester,Tuesday 15 September 2026,True,0
 chester,Wednesday 16 September 2026,True,0
 chester,Thursday 17 September 2026,True,1
-chester,Friday 18 September 2026,True,4
+chester,Friday 18 September 2026,True,3
 chester,Saturday 19 September 2026,True,0
 chester,Sunday 20 September 2026,True,0
 chester,Monday 21 September 2026,True,2
@@ -554,7 +554,7 @@ crawley,Saturday 12 September 2026,True,0
 crawley,Sunday 13 September 2026,True,2
 crawley,Monday 14 September 2026,True,3
 crawley,Tuesday 15 September 2026,True,9
-crawley,Wednesday 16 September 2026,True,3
+crawley,Wednesday 16 September 2026,True,4
 crawley,Thursday 17 September 2026,True,10
 crawley,Friday 18 September 2026,True,9
 crawley,Saturday 19 September 2026,True,0
@@ -674,7 +674,7 @@ derby,Sunday 27 September 2026,False,0
 devonshire,Monday 7 September 2026,False,0
 devonshire,Tuesday 8 September 2026,True,1
 devonshire,Wednesday 9 September 2026,True,0
-devonshire,Thursday 10 September 2026,True,2
+devonshire,Thursday 10 September 2026,True,3
 devonshire,Friday 11 September 2026,True,1
 devonshire,Saturday 12 September 2026,True,0
 devonshire,Sunday 13 September 2026,True,0
@@ -777,7 +777,7 @@ edinburgh,Friday 25 September 2026,False,0
 edinburgh,Saturday 26 September 2026,False,0
 edinburgh,Sunday 27 September 2026,False,0
 edinburgh-fountain-park,Monday 7 September 2026,False,0
-edinburgh-fountain-park,Tuesday 8 September 2026,True,2
+edinburgh-fountain-park,Tuesday 8 September 2026,True,0
 edinburgh-fountain-park,Wednesday 9 September 2026,True,0
 edinburgh-fountain-park,Thursday 10 September 2026,True,0
 edinburgh-fountain-park,Friday 11 September 2026,True,0
@@ -974,7 +974,7 @@ glasgow-hospital,Saturday 12 September 2026,True,0
 glasgow-hospital,Sunday 13 September 2026,True,0
 glasgow-hospital,Monday 14 September 2026,True,0
 glasgow-hospital,Tuesday 15 September 2026,True,0
-glasgow-hospital,Wednesday 16 September 2026,True,1
+glasgow-hospital,Wednesday 16 September 2026,True,0
 glasgow-hospital,Thursday 17 September 2026,True,1
 glasgow-hospital,Friday 18 September 2026,True,0
 glasgow-hospital,Saturday 19 September 2026,True,0
@@ -1142,7 +1142,7 @@ haywards-heath,Saturday 12 September 2026,True,0
 haywards-heath,Sunday 13 September 2026,True,0
 haywards-heath,Monday 14 September 2026,True,3
 haywards-heath,Tuesday 15 September 2026,True,0
-haywards-heath,Wednesday 16 September 2026,True,9
+haywards-heath,Wednesday 16 September 2026,True,8
 haywards-heath,Thursday 17 September 2026,True,1
 haywards-heath,Friday 18 September 2026,True,0
 haywards-heath,Saturday 19 September 2026,True,0
@@ -1374,7 +1374,7 @@ leeds,Sunday 13 September 2026,True,0
 leeds,Monday 14 September 2026,True,4
 leeds,Tuesday 15 September 2026,True,11
 leeds,Wednesday 16 September 2026,True,9
-leeds,Thursday 17 September 2026,True,14
+leeds,Thursday 17 September 2026,True,13
 leeds,Friday 18 September 2026,True,6
 leeds,Saturday 19 September 2026,True,0
 leeds,Sunday 20 September 2026,True,0
@@ -1640,7 +1640,7 @@ moorgate,Sunday 27 September 2026,False,0
 newbury,Monday 7 September 2026,False,0
 newbury,Tuesday 8 September 2026,True,0
 newbury,Wednesday 9 September 2026,True,0
-newbury,Thursday 10 September 2026,True,1
+newbury,Thursday 10 September 2026,True,0
 newbury,Friday 11 September 2026,True,0
 newbury,Saturday 12 September 2026,True,0
 newbury,Sunday 13 September 2026,True,0
@@ -2302,7 +2302,7 @@ the-vale,Thursday 17 September 2026,True,0
 the-vale,Friday 18 September 2026,True,3
 the-vale,Saturday 19 September 2026,True,0
 the-vale,Sunday 20 September 2026,True,0
-the-vale,Monday 21 September 2026,True,1
+the-vale,Monday 21 September 2026,True,0
 the-vale,Tuesday 22 September 2026,False,0
 the-vale,Wednesday 23 September 2026,False,0
 the-vale,Thursday 24 September 2026,False,0
@@ -2465,7 +2465,7 @@ woking,Saturday 12 September 2026,True,0
 woking,Sunday 13 September 2026,True,0
 woking,Monday 14 September 2026,True,0
 woking,Tuesday 15 September 2026,True,0
-woking,Wednesday 16 September 2026,True,0
+woking,Wednesday 16 September 2026,True,1
 woking,Thursday 17 September 2026,True,0
 woking,Friday 18 September 2026,True,0
 woking,Saturday 19 September 2026,True,0

@@ -12,6 +12,13 @@ import json
 def parse_slot_date(date_str: str) -> date:
     return datetime.strptime(date_str, "%A %d %B %Y").date()
 
+# Marketing/profile page URLs that don't follow the standard
+# nuffieldhealth.com/physiotherapy/<slug> pattern - same special cases
+# used in scrape_physio_roster.py
+PROFILE_URL_OVERRIDES = {
+    "birmingham-rubery": "https://www.nuffieldhealth.com/gyms/birmingham-rubery/services/physiotherapy",
+}
+
 status = pd.read_csv("site_status_summary.csv")
 days = pd.read_csv("all_sites_day_summary.csv")
 names = pd.read_csv("site_names_types.csv")
@@ -54,8 +61,10 @@ for _, row in merged.iterrows():
         "days_until_available": None if pd.isna(row["days_until_available"]) else int(row["days_until_available"]),
         "slots_7_days": int(row["slots_7_days"]),
         "slots_14_days": int(row["slots_14_days"]),
-        "book_url": f"https://book.nuffieldhealth.com/physio/appointments/{row['site_slug']}",
-        "profile_url": f"https://www.nuffieldhealth.com/physiotherapy/{row['site_slug']}",
+        "book_url": row["actual_booking_url"] if "actual_booking_url" in row and pd.notna(row["actual_booking_url"])
+                    else f"https://book.nuffieldhealth.com/physio/appointments/{row['site_slug']}",
+        "profile_url": PROFILE_URL_OVERRIDES.get(row["site_slug"],
+                       f"https://www.nuffieldhealth.com/physiotherapy/{row['site_slug']}"),
     })
 
 output = {

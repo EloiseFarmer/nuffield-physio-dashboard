@@ -1,128 +1,128 @@
-site_slug,status,total_slots_found,next_available_date,days_until_available,physio_count_with_availability
-aberdeen,has_availability,19,Thursday 10 September 2026,2.0,1
-aylesbury,has_availability,6,Tuesday 15 September 2026,7.0,1
-london-battersea,has_availability,29,Wednesday 09 September 2026,1.0,1
-london-bloomsbury,has_availability,4,Thursday 10 September 2026,2.0,1
-bolton,has_availability,10,Tuesday 08 September 2026,0.0,1
-bournemouth,has_availability,6,Tuesday 08 September 2026,0.0,3
-brentwood,zero_availability,0,,,0
-brighton,has_availability,25,Wednesday 09 September 2026,1.0,1
-bristol-clifton,has_availability,3,Monday 21 September 2026,13.0,2
-bristol,zero_availability,0,,,0
-bristol-north,has_availability,3,Friday 18 September 2026,10.0,2
-bromley,has_availability,10,Wednesday 09 September 2026,1.0,1
-brondesbury-park,has_availability,8,Friday 18 September 2026,10.0,1
-cambridge-gym,has_availability,10,Tuesday 15 September 2026,7.0,3
-cannock,zero_availability,0,,,0
-cardiff-bay,zero_availability,0,,,0
-chelmsford,zero_availability,0,,,0
-cheltenham,has_availability,54,Wednesday 09 September 2026,1.0,9
-chester,has_availability,8,Thursday 10 September 2026,2.0,2
-chesterfield,zero_availability,0,,,0
-chichester,has_availability,5,Thursday 17 September 2026,9.0,2
-chigwell,has_availability,7,Monday 14 September 2026,6.0,2
-chingford,has_availability,4,Wednesday 09 September 2026,1.0,1
-chislehurst,zero_availability,0,,,0
-cottingley,has_availability,15,Wednesday 09 September 2026,1.0,1
-covent-garden,has_availability,46,Tuesday 08 September 2026,0.0,2
-crawley,has_availability,58,Tuesday 08 September 2026,0.0,2
-croydon,zero_availability,0,,,0
-croydon-central,has_availability,5,Thursday 10 September 2026,2.0,1
-cwmbran,has_availability,9,Wednesday 09 September 2026,1.0,1
-derby-gym,has_availability,8,Tuesday 15 September 2026,7.0,2
-derby,has_availability,2,Monday 21 September 2026,13.0,1
-devonshire,has_availability,18,Tuesday 08 September 2026,0.0,1
-didsbury,has_availability,15,Tuesday 08 September 2026,0.0,1
-ealing,zero_availability,0,,,0
-east-kilbride,zero_availability,0,,,0
-edinburgh,has_availability,1,Friday 18 September 2026,10.0,1
-edinburgh-fountain-park,has_availability,2,Tuesday 08 September 2026,0.0,1
-edinburgh-omni,has_availability,8,Monday 14 September 2026,6.0,3
-enfield,has_availability,23,Wednesday 09 September 2026,1.0,1
-exeter,zero_availability,0,,,0
-farnborough,has_availability,7,Tuesday 15 September 2026,7.0,1
-farnham,has_availability,1,Thursday 10 September 2026,2.0,1
-friern-barnet-london,zero_availability,0,,,0
-glasgow-giffnock,zero_availability,0,,,0
-glasgow,zero_availability,0,,,0
-glasgow-hospital,has_availability,5,Tuesday 08 September 2026,0.0,3
-gloucester,has_availability,28,Wednesday 09 September 2026,1.0,2
-gosforth,zero_availability,0,,,0
-guildford-gym,zero_availability,0,,,0
-guildford,zero_availability,0,,,0
-guiseley,has_availability,6,Monday 21 September 2026,13.0,1
-hampshire,has_availability,23,Thursday 10 September 2026,2.0,5
-harrogate,has_availability,27,Wednesday 09 September 2026,1.0,2
-haywards-heath,has_availability,16,Monday 14 September 2026,6.0,3
-hemel-hempstead,has_availability,6,Friday 18 September 2026,10.0,1
-london-hendon,zero_availability,0,,,0
-hereford,has_availability,20,Wednesday 09 September 2026,1.0,1
-ilford,has_availability,10,Wednesday 09 September 2026,1.0,1
-ipswich,zero_availability,0,,,0
-islington-london,has_availability,2,Friday 11 September 2026,3.0,1
-kingston,has_availability,26,Monday 14 September 2026,6.0,2
-leamington-spa,has_availability,7,Tuesday 08 September 2026,0.0,3
-leatherhead,zero_availability,0,,,0
-leeds-gym,zero_availability,0,,,0
-leeds,has_availability,76,Wednesday 09 September 2026,1.0,7
-leicester-gym,has_availability,1,Wednesday 09 September 2026,1.0,1
-leicester,has_availability,3,Thursday 10 September 2026,2.0,1
-letchworth,has_availability,3,Tuesday 15 September 2026,7.0,1
-liverpool,has_availability,43,Thursday 10 September 2026,2.0,2
-london-canary-wharf,zero_availability,0,,,0
-london-city,has_availability,17,Thursday 10 September 2026,2.0,2
-london-west-end,zero_availability,0,,,0
-mihp,has_availability,15,Wednesday 09 September 2026,1.0,1
-manchester-printworks,zero_availability,0,,,0
-milngavie,has_availability,5,Friday 18 September 2026,10.0,1
-milton-keynes,has_availability,12,Wednesday 09 September 2026,1.0,1
-moorgate,has_availability,40,Wednesday 09 September 2026,1.0,3
-newbury,has_availability,18,Thursday 10 September 2026,2.0,2
-newcastle,has_availability,18,Thursday 17 September 2026,9.0,4
-newcastle-under-lyme,zero_availability,0,,,0
-norbury,has_availability,3,Tuesday 15 September 2026,7.0,1
-northampton,zero_availability,0,,,0
-norwich,has_availability,23,Tuesday 08 September 2026,0.0,1
-nottingham,has_availability,26,Wednesday 09 September 2026,1.0,3
-nuneaton,has_availability,1,Friday 18 September 2026,10.0,1
-oxford,zero_availability,0,,,0
-oxfordshire,zero_availability,0,,,0
-london-paddington,has_availability,1,Tuesday 15 September 2026,7.0,1
-plymouth,has_availability,18,Monday 14 September 2026,6.0,1
-portsmouth,has_availability,24,Wednesday 09 September 2026,1.0,1
-preston,has_availability,5,Tuesday 15 September 2026,7.0,1
-reading,has_availability,11,Friday 11 September 2026,3.0,1
-romford,has_availability,25,Thursday 10 September 2026,2.0,1
-rugby,has_availability,11,Thursday 10 September 2026,2.0,1
-sheffield,has_availability,34,Wednesday 09 September 2026,1.0,2
-shipley,has_availability,6,Thursday 10 September 2026,2.0,1
-shoreditch,has_availability,5,Tuesday 08 September 2026,0.0,1
-shrewsbury,has_availability,13,Thursday 17 September 2026,9.0,3
-st-albans,has_availability,34,Wednesday 09 September 2026,1.0,2
-stockley-park,zero_availability,0,,,0
-stoke-poges,has_availability,32,Tuesday 08 September 2026,0.0,1
-sunbury,zero_availability,0,,,0
-surbiton,has_availability,52,Tuesday 08 September 2026,0.0,2
-swindon,zero_availability,0,,,0
-taunton-gym,zero_availability,0,,,0
-taunton,zero_availability,0,,,0
-tees,has_availability,13,Tuesday 15 September 2026,7.0,3
-telford,zero_availability,0,,,0
-the-vale,has_availability,4,Friday 18 September 2026,10.0,1
-tunbridge-wells-gym,zero_availability,0,,,0
-tunbridge-wells,has_availability,6,Friday 11 September 2026,3.0,2
-wakefield,zero_availability,0,,,0
-london-wandsworth,zero_availability,0,,,0
-wandsworth-southside,has_availability,1,Thursday 17 September 2026,9.0,1
-west-byfleet,has_availability,5,Tuesday 08 September 2026,0.0,1
-weston-super-mare,zero_availability,0,,,0
-woking,has_availability,1,Wednesday 09 September 2026,1.0,1
-wolverhampton-gym,zero_availability,0,,,0
-wolverhampton,zero_availability,0,,,0
-york,zero_availability,0,,,0
-barbican-medical-centre,has_availability,36,Tuesday 08 September 2026,0.0,3
-warwick,has_availability,34,Thursday 10 September 2026,2.0,1
-hertford,zero_availability,0,,,0
-medway,has_availability,2,Thursday 17 September 2026,9.0,1
-wimbledon,zero_availability,0,,,0
-birmingham-rubery,has_availability,18,Wednesday 09 September 2026,1.0,1
+site_slug,status,total_slots_found,next_available_date,days_until_available,physio_count_with_availability,actual_booking_url
+aberdeen,has_availability,19,Thursday 10 September 2026,2.0,1,https://book.nuffieldhealth.com/physio/appointments/aberdeen
+aylesbury,has_availability,6,Tuesday 15 September 2026,7.0,1,https://book.nuffieldhealth.com/physio/appointments/aylesbury
+london-battersea,has_availability,29,Wednesday 09 September 2026,1.0,1,https://book.nuffieldhealth.com/physio/appointments/battersea-london
+london-bloomsbury,has_availability,4,Thursday 10 September 2026,2.0,1,https://book.nuffieldhealth.com/physio/appointments/bloomsbury-london
+bolton,has_availability,10,Tuesday 08 September 2026,0.0,1,https://book.nuffieldhealth.com/physio/appointments/bolton
+bournemouth,has_availability,5,Tuesday 08 September 2026,0.0,3,https://book.nuffieldhealth.com/physio/appointments/bournemouth
+brentwood,zero_availability,0,,,0,https://book.nuffieldhealth.com/physio/appointments/brentwood
+brighton,has_availability,46,Wednesday 09 September 2026,1.0,4,https://book.nuffieldhealth.com/physio/appointments/brighton
+bristol-clifton,has_availability,3,Monday 21 September 2026,13.0,2,https://book.nuffieldhealth.com/physio/appointments/bristol-gym
+bristol,zero_availability,0,,,0,https://book.nuffieldhealth.com/physio/appointments/bristol-hospital
+bristol-north,has_availability,3,Friday 18 September 2026,10.0,2,https://book.nuffieldhealth.com/physio/appointments/bristol-north
+bromley,has_availability,10,Wednesday 09 September 2026,1.0,1,https://book.nuffieldhealth.com/physio/appointments/bromley
+brondesbury-park,has_availability,8,Friday 18 September 2026,10.0,1,https://book.nuffieldhealth.com/physio/appointments/brondesbury-park-london
+cambridge-gym,has_availability,10,Tuesday 15 September 2026,7.0,3,https://book.nuffieldhealth.com/physio/appointments/cambridge-gym
+cannock,zero_availability,0,,,0,https://book.nuffieldhealth.com/physio/appointments/cannock
+cardiff-bay,zero_availability,0,,,0,https://book.nuffieldhealth.com/physio/appointments/cardiff-bay
+chelmsford,zero_availability,0,,,0,https://book.nuffieldhealth.com/physio/appointments/chelmsford
+cheltenham,has_availability,54,Wednesday 09 September 2026,1.0,9,https://book.nuffieldhealth.com/physio/appointments/cheltenham
+chester,has_availability,6,Thursday 17 September 2026,9.0,2,https://book.nuffieldhealth.com/physio/appointments/chester
+chesterfield,zero_availability,0,,,0,https://book.nuffieldhealth.com/physio/appointments/chesterfield
+chichester,has_availability,5,Thursday 17 September 2026,9.0,2,https://book.nuffieldhealth.com/physio/appointments/chichester
+chigwell,has_availability,7,Monday 14 September 2026,6.0,2,https://book.nuffieldhealth.com/physio/appointments/chigwell
+chingford,has_availability,4,Wednesday 09 September 2026,1.0,1,https://book.nuffieldhealth.com/physio/appointments/chingford
+chislehurst,zero_availability,0,,,0,https://book.nuffieldhealth.com/physio/appointments/chislehurst
+cottingley,has_availability,15,Wednesday 09 September 2026,1.0,1,https://book.nuffieldhealth.com/physio/appointments/cottingley
+covent-garden,has_availability,46,Tuesday 08 September 2026,0.0,2,https://book.nuffieldhealth.com/physio/appointments/covent-garden-london
+crawley,has_availability,59,Tuesday 08 September 2026,0.0,2,https://book.nuffieldhealth.com/physio/appointments/crawley
+croydon,zero_availability,0,,,0,https://book.nuffieldhealth.com/physio/appointments/croydon
+croydon-central,has_availability,5,Thursday 10 September 2026,2.0,1,https://book.nuffieldhealth.com/physio/appointments/croydon-central
+cwmbran,has_availability,9,Wednesday 09 September 2026,1.0,1,https://book.nuffieldhealth.com/physio/appointments/cwmbran
+derby-gym,has_availability,8,Tuesday 15 September 2026,7.0,2,https://book.nuffieldhealth.com/physio/appointments/derby-gym
+derby,has_availability,2,Monday 21 September 2026,13.0,1,https://book.nuffieldhealth.com/physio/appointments/derby
+devonshire,has_availability,19,Tuesday 08 September 2026,0.0,1,https://book.nuffieldhealth.com/physio/appointments/plymouth-the-devonshire
+didsbury,has_availability,15,Tuesday 08 September 2026,0.0,1,https://book.nuffieldhealth.com/physio/appointments/didsbury
+ealing,zero_availability,0,,,0,https://book.nuffieldhealth.com/physio/appointments/ealing
+east-kilbride,zero_availability,0,,,0,https://book.nuffieldhealth.com/physio/appointments/east-kilbride
+edinburgh,has_availability,1,Friday 18 September 2026,10.0,1,https://book.nuffieldhealth.com/physio/appointments/edinburgh
+edinburgh-fountain-park,zero_availability,0,,,0,https://book.nuffieldhealth.com/physio/appointments/edinburgh-fountain-park
+edinburgh-omni,has_availability,8,Monday 14 September 2026,6.0,3,https://book.nuffieldhealth.com/physio/appointments/edinburgh-omni
+enfield,has_availability,23,Wednesday 09 September 2026,1.0,1,https://book.nuffieldhealth.com/physio/appointments/enfield
+exeter,zero_availability,0,,,0,https://book.nuffieldhealth.com/physio/appointments/exeter
+farnborough,has_availability,7,Tuesday 15 September 2026,7.0,1,https://book.nuffieldhealth.com/physio/appointments/farnborough
+farnham,has_availability,1,Thursday 10 September 2026,2.0,1,https://book.nuffieldhealth.com/physio/appointments/farnham
+friern-barnet-london,zero_availability,0,,,0,https://book.nuffieldhealth.com/physio/appointments/friern-barnet-london
+glasgow-giffnock,zero_availability,0,,,0,https://book.nuffieldhealth.com/physio/appointments/glasgow-giffnock
+glasgow,zero_availability,0,,,0,https://book.nuffieldhealth.com/physio/appointments/glasgow-gym
+glasgow-hospital,has_availability,4,Tuesday 08 September 2026,0.0,3,https://book.nuffieldhealth.com/physio/appointments/glasgow-hospital
+gloucester,has_availability,28,Wednesday 09 September 2026,1.0,2,https://book.nuffieldhealth.com/physio/appointments/gloucester
+gosforth,zero_availability,0,,,0,https://book.nuffieldhealth.com/physio/appointments/gosforth
+guildford-gym,zero_availability,0,,,0,https://book.nuffieldhealth.com/physio/appointments/guildford-gym
+guildford,zero_availability,0,,,0,https://book.nuffieldhealth.com/physio/appointments/guildford-hospital
+guiseley,has_availability,6,Monday 21 September 2026,13.0,1,https://book.nuffieldhealth.com/physio/appointments/guiseley
+hampshire,has_availability,23,Thursday 10 September 2026,2.0,5,https://book.nuffieldhealth.com/physio/appointments/hampshire
+harrogate,has_availability,27,Wednesday 09 September 2026,1.0,2,https://book.nuffieldhealth.com/physio/appointments/harrogate
+haywards-heath,has_availability,15,Monday 14 September 2026,6.0,3,https://book.nuffieldhealth.com/physio/appointments/haywards-heath
+hemel-hempstead,has_availability,6,Friday 18 September 2026,10.0,1,https://book.nuffieldhealth.com/physio/appointments/hemel-hempstead
+london-hendon,zero_availability,0,,,0,https://book.nuffieldhealth.com/physio/appointments/hendon-london
+hereford,has_availability,20,Wednesday 09 September 2026,1.0,1,https://book.nuffieldhealth.com/physio/appointments/hereford
+ilford,has_availability,10,Wednesday 09 September 2026,1.0,1,https://book.nuffieldhealth.com/physio/appointments/ilford
+ipswich,zero_availability,0,,,0,https://book.nuffieldhealth.com/physio/appointments/ipswich
+islington-london,has_availability,2,Friday 11 September 2026,3.0,1,https://book.nuffieldhealth.com/physio/appointments/islington-london
+kingston,has_availability,26,Monday 14 September 2026,6.0,2,https://book.nuffieldhealth.com/physio/appointments/kingston
+leamington-spa,has_availability,7,Tuesday 08 September 2026,0.0,3,https://book.nuffieldhealth.com/physio/appointments/leamington-spa
+leatherhead,zero_availability,0,,,0,https://book.nuffieldhealth.com/physio/appointments/leatherhead
+leeds-gym,zero_availability,0,,,0,https://book.nuffieldhealth.com/physio/appointments/leeds-gym
+leeds,has_availability,75,Wednesday 09 September 2026,1.0,7,https://book.nuffieldhealth.com/physio/appointments/leeds
+leicester-gym,has_availability,1,Wednesday 09 September 2026,1.0,1,https://book.nuffieldhealth.com/physio/appointments/leicester-gym
+leicester,has_availability,3,Thursday 10 September 2026,2.0,1,https://book.nuffieldhealth.com/physio/appointments/leicester-hospital
+letchworth,has_availability,3,Tuesday 15 September 2026,7.0,1,https://book.nuffieldhealth.com/physio/appointments/letchworth
+liverpool,has_availability,43,Thursday 10 September 2026,2.0,2,https://book.nuffieldhealth.com/physio/appointments/liverpool
+london-canary-wharf,zero_availability,0,,,0,https://book.nuffieldhealth.com/physio/appointments/canary-wharf-medical-centre-london
+london-city,has_availability,17,Thursday 10 September 2026,2.0,2,https://book.nuffieldhealth.com/physio/appointments/city-gym-london
+london-west-end,zero_availability,0,,,0,https://book.nuffieldhealth.com/physio/appointments/west-end-london
+mihp,has_availability,15,Wednesday 09 September 2026,1.0,1,https://book.nuffieldhealth.com/physio/appointments/mihp
+manchester-printworks,zero_availability,0,,,0,https://book.nuffieldhealth.com/physio/appointments/manchester-printworks-gym
+milngavie,has_availability,5,Friday 18 September 2026,10.0,1,https://book.nuffieldhealth.com/physio/appointments/milngavie
+milton-keynes,has_availability,12,Wednesday 09 September 2026,1.0,1,https://book.nuffieldhealth.com/physio/appointments/milton-keynes
+moorgate,has_availability,40,Wednesday 09 September 2026,1.0,3,https://book.nuffieldhealth.com/physio/appointments/moorgate-london
+newbury,has_availability,17,Tuesday 15 September 2026,7.0,2,https://book.nuffieldhealth.com/physio/appointments/newbury
+newcastle,has_availability,18,Thursday 17 September 2026,9.0,4,https://book.nuffieldhealth.com/physio/appointments/newcastle
+newcastle-under-lyme,zero_availability,0,,,0,https://book.nuffieldhealth.com/physio/appointments/newcastle-under-lyme
+norbury,has_availability,3,Tuesday 15 September 2026,7.0,1,https://book.nuffieldhealth.com/physio/appointments/norbury
+northampton,zero_availability,0,,,0,https://book.nuffieldhealth.com/physio/appointments/northampton
+norwich,has_availability,23,Tuesday 08 September 2026,0.0,1,https://book.nuffieldhealth.com/physio/appointments/norwich
+nottingham,has_availability,26,Wednesday 09 September 2026,1.0,3,https://book.nuffieldhealth.com/physio/appointments/nottingham
+nuneaton,has_availability,1,Friday 18 September 2026,10.0,1,https://book.nuffieldhealth.com/physio/appointments/nuneaton
+oxford,zero_availability,0,,,0,https://book.nuffieldhealth.com/physio/appointments/oxford
+oxfordshire,zero_availability,0,,,0,https://book.nuffieldhealth.com/physio/appointments/oxfordshire
+london-paddington,has_availability,1,Tuesday 15 September 2026,7.0,1,https://book.nuffieldhealth.com/physio/appointments/paddington-london
+plymouth,has_availability,18,Monday 14 September 2026,6.0,1,https://book.nuffieldhealth.com/physio/appointments/plymouth-gym
+portsmouth,has_availability,24,Wednesday 09 September 2026,1.0,1,https://book.nuffieldhealth.com/physio/appointments/portsmouth
+preston,has_availability,5,Tuesday 15 September 2026,7.0,1,https://book.nuffieldhealth.com/physio/appointments/preston
+reading,has_availability,11,Friday 11 September 2026,3.0,1,https://book.nuffieldhealth.com/physio/appointments/reading
+romford,has_availability,25,Thursday 10 September 2026,2.0,1,https://book.nuffieldhealth.com/physio/appointments/romford
+rugby,has_availability,11,Thursday 10 September 2026,2.0,1,https://book.nuffieldhealth.com/physio/appointments/rugby
+sheffield,has_availability,34,Wednesday 09 September 2026,1.0,2,https://book.nuffieldhealth.com/physio/appointments/sheffield
+shipley,has_availability,6,Thursday 10 September 2026,2.0,1,https://book.nuffieldhealth.com/physio/appointments/shipley
+shoreditch,has_availability,5,Tuesday 08 September 2026,0.0,1,https://book.nuffieldhealth.com/physio/appointments/shoreditch-london
+shrewsbury,has_availability,13,Thursday 17 September 2026,9.0,3,https://book.nuffieldhealth.com/physio/appointments/shrewsbury
+st-albans,has_availability,34,Wednesday 09 September 2026,1.0,2,https://book.nuffieldhealth.com/physio/appointments/st-albans
+stockley-park,zero_availability,0,,,0,https://book.nuffieldhealth.com/physio/appointments/stockley-park
+stoke-poges,has_availability,32,Tuesday 08 September 2026,0.0,1,https://book.nuffieldhealth.com/physio/appointments/stoke-poges
+sunbury,zero_availability,0,,,0,https://book.nuffieldhealth.com/physio/appointments/sunbury
+surbiton,has_availability,52,Tuesday 08 September 2026,0.0,2,https://book.nuffieldhealth.com/physio/appointments/surbiton
+swindon,zero_availability,0,,,0,https://book.nuffieldhealth.com/physio/appointments/swindon
+taunton-gym,zero_availability,0,,,0,https://book.nuffieldhealth.com/physio/appointments/taunton-gym
+taunton,zero_availability,0,,,0,https://book.nuffieldhealth.com/physio/appointments/taunton-hospital
+tees,has_availability,13,Tuesday 15 September 2026,7.0,3,https://book.nuffieldhealth.com/physio/appointments/tees
+telford,zero_availability,0,,,0,https://book.nuffieldhealth.com/physio/appointments/telford
+the-vale,has_availability,3,Friday 18 September 2026,10.0,1,https://book.nuffieldhealth.com/physio/appointments/the-vale
+tunbridge-wells-gym,zero_availability,0,,,0,https://book.nuffieldhealth.com/physio/appointments/tunbridge-wells-gym
+tunbridge-wells,has_availability,6,Friday 11 September 2026,3.0,2,https://book.nuffieldhealth.com/physio/appointments/tunbridge-wells-hospital
+wakefield,zero_availability,0,,,0,https://book.nuffieldhealth.com/physio/appointments/wakefield
+london-wandsworth,zero_availability,0,,,0,https://book.nuffieldhealth.com/physio/appointments/wandsworth-london
+wandsworth-southside,has_availability,1,Thursday 17 September 2026,9.0,1,https://book.nuffieldhealth.com/physio/appointments/wandsworth-southside
+west-byfleet,has_availability,5,Tuesday 08 September 2026,0.0,1,https://book.nuffieldhealth.com/physio/appointments/west-byfleet
+weston-super-mare,zero_availability,0,,,0,https://book.nuffieldhealth.com/physio/appointments/weston-super-mare
+woking,has_availability,2,Wednesday 09 September 2026,1.0,2,https://book.nuffieldhealth.com/physio/appointments/woking
+wolverhampton-gym,zero_availability,0,,,0,https://book.nuffieldhealth.com/physio/appointments/wolverhampton-gym
+wolverhampton,zero_availability,0,,,0,https://book.nuffieldhealth.com/physio/appointments/wolverhampton-hospital
+york,zero_availability,0,,,0,https://book.nuffieldhealth.com/physio/appointments/york
+barbican-medical-centre,has_availability,36,Tuesday 08 September 2026,0.0,3,https://book.nuffieldhealth.com/physio/appointments/barbican-medical-centre
+warwick,has_availability,34,Thursday 10 September 2026,2.0,1,https://book.nuffieldhealth.com/physio/appointments/warwick
+hertford,zero_availability,0,,,0,https://book.nuffieldhealth.com/physio/appointments/hertford
+medway,has_availability,2,Thursday 17 September 2026,9.0,1,https://book.nuffieldhealth.com/physio/appointments/medway
+wimbledon,zero_availability,0,,,0,https://book.nuffieldhealth.com/physio/appointments/wimbledon
+birmingham-rubery,has_availability,18,Wednesday 09 September 2026,1.0,1,https://book.nuffieldhealth.com/physio/appointments/birmingham

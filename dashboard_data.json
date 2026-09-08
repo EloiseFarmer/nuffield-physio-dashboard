@@ -43,7 +43,7 @@
       "days_until_available": 1,
       "slots_7_days": 18,
       "slots_14_days": 29,
-      "book_url": "https://book.nuffieldhealth.com/physio/appointments/london-battersea",
+      "book_url": "https://book.nuffieldhealth.com/physio/appointments/battersea-london",
       "profile_url": "https://www.nuffieldhealth.com/physiotherapy/london-battersea"
     },
     {
@@ -58,7 +58,7 @@
       "days_until_available": 2,
       "slots_7_days": 2,
       "slots_14_days": 4,
-      "book_url": "https://book.nuffieldhealth.com/physio/appointments/london-bloomsbury",
+      "book_url": "https://book.nuffieldhealth.com/physio/appointments/bloomsbury-london",
       "profile_url": "https://www.nuffieldhealth.com/physiotherapy/london-bloomsbury"
     },
     {
@@ -86,8 +86,8 @@
       "status": "has_availability",
       "next_available": "Tuesday 08 September 2026",
       "days_until_available": 0,
-      "slots_7_days": 3,
-      "slots_14_days": 6,
+      "slots_7_days": 2,
+      "slots_14_days": 5,
       "book_url": "https://book.nuffieldhealth.com/physio/appointments/bournemouth",
       "profile_url": "https://www.nuffieldhealth.com/physiotherapy/bournemouth"
     },
@@ -110,14 +110,14 @@
       "slug": "brighton",
       "name": "Brighton",
       "type": "Hospital/Clinic",
-      "physios_with_slots": 1,
+      "physios_with_slots": 4,
       "total_physios": 7,
       "online_booking": true,
       "status": "has_availability",
       "next_available": "Wednesday 09 September 2026",
       "days_until_available": 1,
-      "slots_7_days": 8,
-      "slots_14_days": 25,
+      "slots_7_days": 16,
+      "slots_14_days": 46,
       "book_url": "https://book.nuffieldhealth.com/physio/appointments/brighton",
       "profile_url": "https://www.nuffieldhealth.com/physiotherapy/brighton"
     },
@@ -133,7 +133,7 @@
       "days_until_available": 13,
       "slots_7_days": 0,
       "slots_14_days": 3,
-      "book_url": "https://book.nuffieldhealth.com/physio/appointments/bristol-clifton",
+      "book_url": "https://book.nuffieldhealth.com/physio/appointments/bristol-gym",
       "profile_url": "https://www.nuffieldhealth.com/physiotherapy/bristol-clifton"
     },
     {
@@ -148,7 +148,7 @@
       "days_until_available": null,
       "slots_7_days": 0,
       "slots_14_days": 0,
-      "book_url": "https://book.nuffieldhealth.com/physio/appointments/bristol",
+      "book_url": "https://book.nuffieldhealth.com/physio/appointments/bristol-hospital",
       "profile_url": "https://www.nuffieldhealth.com/physiotherapy/bristol"
     },
     {
@@ -193,7 +193,7 @@
       "days_until_available": 10,
       "slots_7_days": 0,
       "slots_14_days": 8,
-      "book_url": "https://book.nuffieldhealth.com/physio/appointments/brondesbury-park",
+      "book_url": "https://book.nuffieldhealth.com/physio/appointments/brondesbury-park-london",
       "profile_url": "https://www.nuffieldhealth.com/physiotherapy/brondesbury-park"
     },
     {
@@ -279,10 +279,10 @@
       "total_physios": 7,
       "online_booking": true,
       "status": "has_availability",
-      "next_available": "Thursday 10 September 2026",
-      "days_until_available": 2,
-      "slots_7_days": 1,
-      "slots_14_days": 8,
+      "next_available": "Thursday 17 September 2026",
+      "days_until_available": 9,
+      "slots_7_days": 0,
+      "slots_14_days": 6,
       "book_url": "https://book.nuffieldhealth.com/physio/appointments/chester",
       "profile_url": "https://www.nuffieldhealth.com/physiotherapy/chester"
     },
@@ -388,7 +388,7 @@
       "days_until_available": 0,
       "slots_7_days": 20,
       "slots_14_days": 46,
-      "book_url": "https://book.nuffieldhealth.com/physio/appointments/covent-garden",
+      "book_url": "https://book.nuffieldhealth.com/physio/appointments/covent-garden-london",
       "profile_url": "https://www.nuffieldhealth.com/physiotherapy/covent-garden"
     },
     {
@@ -402,7 +402,7 @@
       "next_available": "Tuesday 08 September 2026",
       "days_until_available": 0,
       "slots_7_days": 27,
-      "slots_14_days": 58,
+      "slots_14_days": 59,
       "book_url": "https://book.nuffieldhealth.com/physio/appointments/crawley",
       "profile_url": "https://www.nuffieldhealth.com/physiotherapy/crawley"
     },
@@ -491,9 +491,9 @@
       "status": "has_availability",
       "next_available": "Tuesday 08 September 2026",
       "days_until_available": 0,
-      "slots_7_days": 6,
-      "slots_14_days": 18,
-      "book_url": "https://book.nuffieldhealth.com/physio/appointments/devonshire",
+      "slots_7_days": 7,
+      "slots_14_days": 19,
+      "book_url": "https://book.nuffieldhealth.com/physio/appointments/plymouth-the-devonshire",
       "profile_url": "https://www.nuffieldhealth.com/physiotherapy/devonshire"
     },
     {
@@ -560,14 +560,14 @@
       "slug": "edinburgh-fountain-park",
       "name": "Edinburgh Fountain Park",
       "type": "Gym",
-      "physios_with_slots": 1,
+      "physios_with_slots": 0,
       "total_physios": 3,
       "online_booking": true,
-      "status": "has_availability",
-      "next_available": "Tuesday 08 September 2026",
-      "days_until_available": 0,
-      "slots_7_days": 2,
-      "slots_14_days": 2,
+      "status": "zero_availability",
+      "next_available": null,
+      "days_until_available": null,
+      "slots_7_days": 0,
+      "slots_14_days": 0,
       "book_url": "https://book.nuffieldhealth.com/physio/appointments/edinburgh-fountain-park",
       "profile_url": "https://www.nuffieldhealth.com/physiotherapy/edinburgh-fountain-park"
     },
@@ -688,7 +688,7 @@
       "days_until_available": null,
       "slots_7_days": 0,
       "slots_14_days": 0,
-      "book_url": "https://book.nuffieldhealth.com/physio/appointments/glasgow",
+      "book_url": "https://book.nuffieldhealth.com/physio/appointments/glasgow-gym",
       "profile_url": "https://www.nuffieldhealth.com/physiotherapy/glasgow"
     },
     {
@@ -702,7 +702,7 @@
       "next_available": "Tuesday 08 September 2026",
       "days_until_available": 0,
       "slots_7_days": 1,
-      "slots_14_days": 5,
+      "slots_14_days": 4,
       "book_url": "https://book.nuffieldhealth.com/physio/appointments/glasgow-hospital",
       "profile_url": "https://www.nuffieldhealth.com/physiotherapy/glasgow-hospital"
     },
@@ -763,7 +763,7 @@
       "days_until_available": null,
       "slots_7_days": 0,
       "slots_14_days": 0,
-      "book_url": "https://book.nuffieldhealth.com/physio/appointments/guildford",
+      "book_url": "https://book.nuffieldhealth.com/physio/appointments/guildford-hospital",
       "profile_url": "https://www.nuffieldhealth.com/physiotherapy/guildford"
     },
     {
@@ -822,7 +822,7 @@
       "next_available": "Monday 14 September 2026",
       "days_until_available": 6,
       "slots_7_days": 3,
-      "slots_14_days": 16,
+      "slots_14_days": 15,
       "book_url": "https://book.nuffieldhealth.com/physio/appointments/haywards-heath",
       "profile_url": "https://www.nuffieldhealth.com/physiotherapy/haywards-heath"
     },
@@ -853,7 +853,7 @@
       "days_until_available": null,
       "slots_7_days": 0,
       "slots_14_days": 0,
-      "book_url": "https://book.nuffieldhealth.com/physio/appointments/london-hendon",
+      "book_url": "https://book.nuffieldhealth.com/physio/appointments/hendon-london",
       "profile_url": "https://www.nuffieldhealth.com/physiotherapy/london-hendon"
     },
     {
@@ -987,7 +987,7 @@
       "next_available": "Wednesday 09 September 2026",
       "days_until_available": 1,
       "slots_7_days": 26,
-      "slots_14_days": 76,
+      "slots_14_days": 75,
       "book_url": "https://book.nuffieldhealth.com/physio/appointments/leeds",
       "profile_url": "https://www.nuffieldhealth.com/physiotherapy/leeds"
     },
@@ -1018,7 +1018,7 @@
       "days_until_available": 2,
       "slots_7_days": 2,
       "slots_14_days": 3,
-      "book_url": "https://book.nuffieldhealth.com/physio/appointments/leicester",
+      "book_url": "https://book.nuffieldhealth.com/physio/appointments/leicester-hospital",
       "profile_url": "https://www.nuffieldhealth.com/physiotherapy/leicester"
     },
     {
@@ -1063,7 +1063,7 @@
       "days_until_available": null,
       "slots_7_days": 0,
       "slots_14_days": 0,
-      "book_url": "https://book.nuffieldhealth.com/physio/appointments/london-canary-wharf",
+      "book_url": "https://book.nuffieldhealth.com/physio/appointments/canary-wharf-medical-centre-london",
       "profile_url": "https://www.nuffieldhealth.com/physiotherapy/london-canary-wharf"
     },
     {
@@ -1078,7 +1078,7 @@
       "days_until_available": 2,
       "slots_7_days": 8,
       "slots_14_days": 17,
-      "book_url": "https://book.nuffieldhealth.com/physio/appointments/london-city",
+      "book_url": "https://book.nuffieldhealth.com/physio/appointments/city-gym-london",
       "profile_url": "https://www.nuffieldhealth.com/physiotherapy/london-city"
     },
     {
@@ -1093,7 +1093,7 @@
       "days_until_available": null,
       "slots_7_days": 0,
       "slots_14_days": 0,
-      "book_url": "https://book.nuffieldhealth.com/physio/appointments/london-west-end",
+      "book_url": "https://book.nuffieldhealth.com/physio/appointments/west-end-london",
       "profile_url": "https://www.nuffieldhealth.com/physiotherapy/london-west-end"
     },
     {
@@ -1123,7 +1123,7 @@
       "days_until_available": null,
       "slots_7_days": 0,
       "slots_14_days": 0,
-      "book_url": "https://book.nuffieldhealth.com/physio/appointments/manchester-printworks",
+      "book_url": "https://book.nuffieldhealth.com/physio/appointments/manchester-printworks-gym",
       "profile_url": "https://www.nuffieldhealth.com/physiotherapy/manchester-printworks"
     },
     {
@@ -1168,7 +1168,7 @@
       "days_until_available": 1,
       "slots_7_days": 15,
       "slots_14_days": 40,
-      "book_url": "https://book.nuffieldhealth.com/physio/appointments/moorgate",
+      "book_url": "https://book.nuffieldhealth.com/physio/appointments/moorgate-london",
       "profile_url": "https://www.nuffieldhealth.com/physiotherapy/moorgate"
     },
     {
@@ -1179,10 +1179,10 @@
       "total_physios": 2,
       "online_booking": true,
       "status": "has_availability",
-      "next_available": "Thursday 10 September 2026",
-      "days_until_available": 2,
-      "slots_7_days": 9,
-      "slots_14_days": 18,
+      "next_available": "Tuesday 15 September 2026",
+      "days_until_available": 7,
+      "slots_7_days": 8,
+      "slots_14_days": 17,
       "book_url": "https://book.nuffieldhealth.com/physio/appointments/newbury",
       "profile_url": "https://www.nuffieldhealth.com/physiotherapy/newbury"
     },
@@ -1333,7 +1333,7 @@
       "days_until_available": 7,
       "slots_7_days": 1,
       "slots_14_days": 1,
-      "book_url": "https://book.nuffieldhealth.com/physio/appointments/london-paddington",
+      "book_url": "https://book.nuffieldhealth.com/physio/appointments/paddington-london",
       "profile_url": "https://www.nuffieldhealth.com/physiotherapy/london-paddington"
     },
     {
@@ -1348,7 +1348,7 @@
       "days_until_available": 6,
       "slots_7_days": 9,
       "slots_14_days": 18,
-      "book_url": "https://book.nuffieldhealth.com/physio/appointments/plymouth",
+      "book_url": "https://book.nuffieldhealth.com/physio/appointments/plymouth-gym",
       "profile_url": "https://www.nuffieldhealth.com/physiotherapy/plymouth"
     },
     {
@@ -1468,7 +1468,7 @@
       "days_until_available": 0,
       "slots_7_days": 3,
       "slots_14_days": 5,
-      "book_url": "https://book.nuffieldhealth.com/physio/appointments/shoreditch",
+      "book_url": "https://book.nuffieldhealth.com/physio/appointments/shoreditch-london",
       "profile_url": "https://www.nuffieldhealth.com/physiotherapy/shoreditch"
     },
     {
@@ -1603,7 +1603,7 @@
       "days_until_available": null,
       "slots_7_days": 0,
       "slots_14_days": 0,
-      "book_url": "https://book.nuffieldhealth.com/physio/appointments/taunton",
+      "book_url": "https://book.nuffieldhealth.com/physio/appointments/taunton-hospital",
       "profile_url": "https://www.nuffieldhealth.com/physiotherapy/taunton"
     },
     {
@@ -1647,7 +1647,7 @@
       "next_available": "Friday 18 September 2026",
       "days_until_available": 10,
       "slots_7_days": 0,
-      "slots_14_days": 4,
+      "slots_14_days": 3,
       "book_url": "https://book.nuffieldhealth.com/physio/appointments/the-vale",
       "profile_url": "https://www.nuffieldhealth.com/physiotherapy/the-vale"
     },
@@ -1678,7 +1678,7 @@
       "days_until_available": 3,
       "slots_7_days": 1,
       "slots_14_days": 6,
-      "book_url": "https://book.nuffieldhealth.com/physio/appointments/tunbridge-wells",
+      "book_url": "https://book.nuffieldhealth.com/physio/appointments/tunbridge-wells-hospital",
       "profile_url": "https://www.nuffieldhealth.com/physiotherapy/tunbridge-wells"
     },
     {
@@ -1708,7 +1708,7 @@
       "days_until_available": null,
       "slots_7_days": 0,
       "slots_14_days": 0,
-      "book_url": "https://book.nuffieldhealth.com/physio/appointments/london-wandsworth",
+      "book_url": "https://book.nuffieldhealth.com/physio/appointments/wandsworth-london",
       "profile_url": "https://www.nuffieldhealth.com/physiotherapy/london-wandsworth"
     },
     {
@@ -1760,14 +1760,14 @@
       "slug": "woking",
       "name": "Woking",
       "type": "Hospital/Clinic",
-      "physios_with_slots": 1,
+      "physios_with_slots": 2,
       "total_physios": 9,
       "online_booking": true,
       "status": "has_availability",
       "next_available": "Wednesday 09 September 2026",
       "days_until_available": 1,
       "slots_7_days": 1,
-      "slots_14_days": 1,
+      "slots_14_days": 2,
       "book_url": "https://book.nuffieldhealth.com/physio/appointments/woking",
       "profile_url": "https://www.nuffieldhealth.com/physiotherapy/woking"
     },
@@ -1798,7 +1798,7 @@
       "days_until_available": null,
       "slots_7_days": 0,
       "slots_14_days": 0,
-      "book_url": "https://book.nuffieldhealth.com/physio/appointments/wolverhampton",
+      "book_url": "https://book.nuffieldhealth.com/physio/appointments/wolverhampton-hospital",
       "profile_url": "https://www.nuffieldhealth.com/physiotherapy/wolverhampton"
     },
     {
@@ -1903,17 +1903,17 @@
       "days_until_available": 1,
       "slots_7_days": 5,
       "slots_14_days": 18,
-      "book_url": "https://book.nuffieldhealth.com/physio/appointments/birmingham-rubery",
-      "profile_url": "https://www.nuffieldhealth.com/physiotherapy/birmingham-rubery"
+      "book_url": "https://book.nuffieldhealth.com/physio/appointments/birmingham",
+      "profile_url": "https://www.nuffieldhealth.com/gyms/birmingham-rubery/services/physiotherapy"
     }
   ],
   "summary": {
     "total_sites": 127,
     "total_physios_listed": 371,
     "sites_with_online_booking": 127,
-    "sites_with_slots_14_days": 84,
-    "total_appointments_14_days": 1300,
-    "total_appointments_7_days": 568,
-    "pct_no_appt_7_days": 45.7
+    "sites_with_slots_14_days": 83,
+    "total_appointments_14_days": 1314,
+    "total_appointments_7_days": 572,
+    "pct_no_appt_7_days": 47.2
   }
 }

@@ -57,17 +57,22 @@ def find_real_booking_url(marketing_slug: str) -> str | None:
     return link["href"] if link else None
 
 
-def scrape_site(site_slug: str) -> tuple[pd.DataFrame, pd.DataFrame]:
+def scrape_site(site_slug: str) -> tuple[pd.DataFrame, pd.DataFrame, str]:
     """Fetch and parse one site's booking page.
 
-    Returns two DataFrames:
+    Returns three values:
       - slots_df: one row per individual available slot (physio-level detail)
       - day_summary_df: one row per calendar day, always present even when
         a day has zero slots - this is what makes "fully booked" a real,
         trackable data point instead of silently missing data.
+      - actual_url: the URL that actually worked (may differ from the naive
+        slug-based guess - e.g. via SPECIAL_CASE_URLS or the marketing-page
+        fallback). This is what the dashboard's "Book now" link should use,
+        NOT a freshly-reconstructed guess.
 
-    Both are empty (not an exception) if the site has no slots-data script -
-    e.g. a site that doesn't use this booking widget pattern at all."""
+    Both DataFrames are empty (not an exception) if the site has no
+    slots-data script - e.g. a site that doesn't use this booking widget
+    pattern at all."""
     url = SPECIAL_CASE_URLS.get(site_slug, BASE_URL.format(site_slug))
 
     try:
@@ -83,6 +88,7 @@ def scrape_site(site_slug: str) -> tuple[pd.DataFrame, pd.DataFrame]:
             print(f"    -> retrying with real URL found on marketing page: {real_url}")
             resp = requests.get(real_url, timeout=15)
             resp.raise_for_status()
+            url = real_url
         else:
             raise
 
@@ -90,7 +96,7 @@ def scrape_site(site_slug: str) -> tuple[pd.DataFrame, pd.DataFrame]:
     script_tag = soup.find("script", id="slots-data")
     if script_tag is None:
         print(f"  [skip] {site_slug}: no slots-data found (phone-only booking / different page structure)")
-        return pd.DataFrame(), pd.DataFrame()
+        return pd.DataFrame(), pd.DataFrame(), url
 
     raw = script_tag.string
     cleaned = "\n".join(
@@ -124,7 +130,7 @@ def scrape_site(site_slug: str) -> tuple[pd.DataFrame, pd.DataFrame]:
                 "session_id": slot["session_id"],
             })
 
-    return pd.DataFrame(slot_rows), pd.DataFrame(day_rows)
+    return pd.DataFrame(slot_rows), pd.DataFrame(day_rows), url
 
 
 def scrape_all_sites() -> tuple[pd.DataFrame, pd.DataFrame, pd.DataFrame]:
@@ -139,7 +145,7 @@ def scrape_all_sites() -> tuple[pd.DataFrame, pd.DataFrame, pd.DataFrame]:
     for i, slug in enumerate(slugs, start=1):
         print(f"[{i}/{len(slugs)}] Scraping {slug}...")
         try:
-            slots_df, days_df = scrape_site(slug)
+            slots_df, days_df, actual_url = scrape_site(slug)
 
             if days_df.empty:
                 status = "no_online_booking"
@@ -173,6 +179,7 @@ def scrape_all_sites() -> tuple[pd.DataFrame, pd.DataFrame, pd.DataFrame]:
                 "next_available_date": next_available_date,
                 "days_until_available": days_until_available,
                 "physio_count_with_availability": physio_count,
+                "actual_booking_url": actual_url,
             })
 
             if not slots_df.empty:
@@ -186,6 +193,7 @@ def scrape_all_sites() -> tuple[pd.DataFrame, pd.DataFrame, pd.DataFrame]:
                 "site_slug": slug, "status": "error", "total_slots_found": 0,
                 "next_available_date": None, "days_until_available": None,
                 "physio_count_with_availability": 0,
+                "actual_booking_url": BASE_URL.format(slug),  # best guess, may 404
             })
 
         time.sleep(REQUEST_DELAY_SECONDS)

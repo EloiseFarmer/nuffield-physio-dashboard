@@ -67,7 +67,6 @@ bolton,Thursday 17 September 2026,True,09:30,10:15,Mr Paul Staines,001w000001K64
 bolton,Thursday 17 September 2026,True,10:15,11:00,Mr Paul Staines,001w000001K64h9AAB,Male,a0Ow000000KKrHeEAL,a0WPz00000SBY1nMAH
 bolton,Thursday 17 September 2026,True,13:00,13:45,Mr Paul Staines,001w000001K64h9AAB,Male,a0Ow000000KKrHeEAL,a0WPz00000SBY1vMAH
 bolton,Thursday 17 September 2026,True,13:45,14:30,Mr Paul Staines,001w000001K64h9AAB,Male,a0Ow000000KKrHeEAL,a0WPz00000SBY1vMAH
-bournemouth,Tuesday 8 September 2026,True,14:30,15:15,Ms Sue Godfrey (paeds age 0 - adults),0014J00000j4l3AQAQ,Female,a0O2000000AeJHPEA3,a0WPz00000JmNjqMAF
 bournemouth,Tuesday 8 September 2026,True,17:15,18:00,Ms Sue Godfrey (paeds age 0 - adults),0014J00000j4l3AQAQ,Female,a0O2000000AeJHPEA3,a0WPz00000JmNjqMAF
 bournemouth,Tuesday 15 September 2026,True,10:00,10:45,Ms Stephanie Sherborne (age 6+),0014J00000mh39CQAQ,Female,a0O2000000AeJHPEA3,a0WPz00000TGCXdMAP
 bournemouth,Wednesday 16 September 2026,True,12:15,13:00,Ms Stephanie Sherborne (age 6+),0014J00000mh39CQAQ,Female,a0O2000000AeJHPEA3,a0WPz00000TGCXiMAP
@@ -75,12 +74,20 @@ bournemouth,Wednesday 16 September 2026,True,14:30,15:15,Mrs Natalie Potts (age 
 bournemouth,Wednesday 16 September 2026,True,15:15,16:00,Mrs Natalie Potts (age 18+),0014J00000sxJeVQAU,Female,a0O2000000AeJHPEA3,a0WPz00000Df5VVMAZ
 brighton,Wednesday 9 September 2026,True,16:15,17:00,Mrs Nadia Tabak,0014J00000yylHUQAY,Female,a0O2000000AeJHREA3,a0WPz00000W1nPFMAZ
 brighton,Thursday 10 September 2026,True,19:00,19:45,Mrs Nadia Tabak,0014J00000yylHUQAY,Female,a0O2000000AeJHREA3,a0WPz00000WrI4QMAV
+brighton,Friday 11 September 2026,True,08:15,09:00,Mr Owen Harris,00120000010rxbgAAA,Male,a0O2000000AeJHREA3,a0WPz00000HIwsWMAT
+brighton,Friday 11 September 2026,True,10:45,11:30,Mr Owen Harris,00120000010rxbgAAA,Male,a0O2000000AeJHREA3,a0WPz00000HIwsWMAT
+brighton,Monday 14 September 2026,True,12:45,13:30,Mr John McPike,00120000010rxYFAAY,Male,a0O2000000AeJHREA3,a0WPz00000WJhRtMAL
 brighton,Monday 14 September 2026,True,17:00,17:45,Mrs Nadia Tabak,0014J00000yylHUQAY,Female,a0O2000000AeJHREA3,a0WTw000003VbxeMAC
 brighton,Monday 14 September 2026,True,18:30,19:15,Mrs Nadia Tabak,0014J00000yylHUQAY,Female,a0O2000000AeJHREA3,a0WTw000003VbxeMAC
 brighton,Monday 14 September 2026,True,19:15,20:00,Mrs Nadia Tabak,0014J00000yylHUQAY,Female,a0O2000000AeJHREA3,a0WTw000003VbxeMAC
+brighton,Tuesday 15 September 2026,True,09:45,10:30,Mr Owen Harris,00120000010rxbgAAA,Male,a0O2000000AeJHREA3,a0WPz00000HIxUTMA1
 brighton,Tuesday 15 September 2026,True,10:30,11:15,Mrs Nadia Tabak,0014J00000yylHUQAY,Female,a0O2000000AeJHREA3,a0WPz00000W1nPGMAZ
 brighton,Tuesday 15 September 2026,True,12:00,12:45,Mrs Nadia Tabak,0014J00000yylHUQAY,Female,a0O2000000AeJHREA3,a0WPz00000W1nPGMAZ
 brighton,Tuesday 15 September 2026,True,12:45,13:30,Mrs Nadia Tabak,0014J00000yylHUQAY,Female,a0O2000000AeJHREA3,a0WPz00000W1nPGMAZ
+brighton,Tuesday 15 September 2026,True,13:15,14:00,Mr Owen Harris,00120000010rxbgAAA,Male,a0O2000000AeJHREA3,a0WPz00000HIxVHMA1
+brighton,Tuesday 15 September 2026,True,14:00,14:45,Mr Owen Harris,00120000010rxbgAAA,Male,a0O2000000AeJHREA3,a0WPz00000HIxVHMA1
+brighton,Tuesday 15 September 2026,True,14:45,15:30,Mr Owen Harris,00120000010rxbgAAA,Male,a0O2000000AeJHREA3,a0WPz00000HIxVHMA1
+brighton,Tuesday 15 September 2026,True,16:30,17:15,Mr John McPike,00120000010rxYFAAY,Male,a0O2000000AeJHREA3,a0WPz00000WJhRuMAL
 brighton,Wednesday 16 September 2026,True,09:30,10:15,Mrs Nadia Tabak,0014J00000yylHUQAY,Female,a0O2000000AeJHREA3,a0WPz00000W1nPHMAZ
 brighton,Wednesday 16 September 2026,True,12:30,13:15,Mrs Nadia Tabak,0014J00000yylHUQAY,Female,a0O2000000AeJHREA3,a0WPz00000W1nPHMAZ
 brighton,Wednesday 16 September 2026,True,13:15,14:00,Mrs Nadia Tabak,0014J00000yylHUQAY,Female,a0O2000000AeJHREA3,a0WPz00000W1nPHMAZ
@@ -90,14 +97,27 @@ brighton,Wednesday 16 September 2026,True,16:00,16:45,Mrs Nadia Tabak,0014J00000
 brighton,Wednesday 16 September 2026,True,16:45,17:30,Mrs Nadia Tabak,0014J00000yylHUQAY,Female,a0O2000000AeJHREA3,a0WPz00000W1nPHMAZ
 brighton,Wednesday 16 September 2026,True,17:30,18:15,Mrs Nadia Tabak,0014J00000yylHUQAY,Female,a0O2000000AeJHREA3,a0WPz00000W1nPHMAZ
 brighton,Wednesday 16 September 2026,True,18:15,19:00,Mrs Nadia Tabak,0014J00000yylHUQAY,Female,a0O2000000AeJHREA3,a0WPz00000W1nPHMAZ
+brighton,Thursday 17 September 2026,True,08:30,09:15,Mrs Chris Rosam,00120000010rxY0AAI,Female,a0O2000000AeJHREA3,a0WPz00000STJFkMAP
 brighton,Thursday 17 September 2026,True,17:45,18:30,Mrs Nadia Tabak,0014J00000yylHUQAY,Female,a0O2000000AeJHREA3,a0WPz00000WrI4SMAV
 brighton,Thursday 17 September 2026,True,19:00,19:45,Mrs Nadia Tabak,0014J00000yylHUQAY,Female,a0O2000000AeJHREA3,a0WPz00000WrI4SMAV
+brighton,Friday 18 September 2026,True,08:15,09:00,Mr Owen Harris,00120000010rxbgAAA,Male,a0O2000000AeJHREA3,a0WPz00000HIwsXMAT
+brighton,Friday 18 September 2026,True,09:00,09:45,Mr Owen Harris,00120000010rxbgAAA,Male,a0O2000000AeJHREA3,a0WPz00000HIwsXMAT
+brighton,Friday 18 September 2026,True,09:45,10:30,Mr Owen Harris,00120000010rxbgAAA,Male,a0O2000000AeJHREA3,a0WPz00000HIwsXMAT
+brighton,Friday 18 September 2026,True,11:00,11:45,Mr Owen Harris,00120000010rxbgAAA,Male,a0O2000000AeJHREA3,a0WPz00000HIwsXMAT
+brighton,Friday 18 September 2026,True,13:00,13:45,Mr Owen Harris,00120000010rxbgAAA,Male,a0O2000000AeJHREA3,a0WPz00000HIwsXMAT
 brighton,Friday 18 September 2026,True,17:30,18:15,Mrs Nadia Tabak,0014J00000yylHUQAY,Female,a0O2000000AeJHREA3,a0WPz00000WrI4TMAV
 brighton,Friday 18 September 2026,True,18:15,19:00,Mrs Nadia Tabak,0014J00000yylHUQAY,Female,a0O2000000AeJHREA3,a0WPz00000WrI4TMAV
+brighton,Monday 21 September 2026,True,09:00,09:45,Mrs Chris Rosam,00120000010rxY0AAI,Female,a0O2000000AeJHREA3,a0WPz00000STJFlMAP
+brighton,Monday 21 September 2026,True,09:45,10:30,Mrs Chris Rosam,00120000010rxY0AAI,Female,a0O2000000AeJHREA3,a0WPz00000STJFlMAP
+brighton,Monday 21 September 2026,True,11:00,11:45,Mrs Chris Rosam,00120000010rxY0AAI,Female,a0O2000000AeJHREA3,a0WPz00000STJFlMAP
 brighton,Monday 21 September 2026,True,10:00,10:45,Mrs Nadia Tabak,0014J00000yylHUQAY,Female,a0O2000000AeJHREA3,a0WPz00000WTHhOMAX
 brighton,Monday 21 September 2026,True,10:45,11:30,Mrs Nadia Tabak,0014J00000yylHUQAY,Female,a0O2000000AeJHREA3,a0WPz00000WTHhOMAX
 brighton,Monday 21 September 2026,True,11:30,12:15,Mrs Nadia Tabak,0014J00000yylHUQAY,Female,a0O2000000AeJHREA3,a0WPz00000WTHhOMAX
 brighton,Monday 21 September 2026,True,12:15,13:00,Mrs Nadia Tabak,0014J00000yylHUQAY,Female,a0O2000000AeJHREA3,a0WPz00000WTHhOMAX
+brighton,Monday 21 September 2026,True,14:00,14:45,Mrs Chris Rosam,00120000010rxY0AAI,Female,a0O2000000AeJHREA3,a0WPz00000STOC9MAP
+brighton,Monday 21 September 2026,True,14:45,15:30,Mrs Chris Rosam,00120000010rxY0AAI,Female,a0O2000000AeJHREA3,a0WPz00000STOC9MAP
+brighton,Monday 21 September 2026,True,14:30,15:15,Mr John McPike,00120000010rxYFAAY,Male,a0O2000000AeJHREA3,a0WPz00000WiQArMAN
+brighton,Monday 21 September 2026,True,15:15,16:00,Mr John McPike,00120000010rxYFAAY,Male,a0O2000000AeJHREA3,a0WPz00000WiQArMAN
 bristol-clifton,Monday 21 September 2026,True,08:30,09:15,Mrs Katie Wyatt,0012X00001vIcXYQA0,Female,a0O2000000AeJBqEAN,a0WPz00000SsqrDMAR
 bristol-clifton,Monday 21 September 2026,True,09:15,10:00,Mrs Katie Wyatt,0012X00001vIcXYQA0,Female,a0O2000000AeJBqEAN,a0WPz00000SsqrDMAR
 bristol-clifton,Monday 21 September 2026,True,13:15,14:00,Mrs Claire Turner,001Pz000009uarkIAA,Female,a0O2000000AeJBqEAN,a0WPz00000SbZwSMAV
@@ -154,7 +174,7 @@ cheltenham,Friday 11 September 2026,True,13:45,14:30,Mr Daniel Blijweert,001Pz00
 cheltenham,Friday 11 September 2026,True,15:30,16:15,Mr Daniel Blijweert,001Pz00000orL6OIAU,Male,a0O2000000AeJHTEA3,a0WPz00000M1rkkMAB
 cheltenham,Monday 14 September 2026,True,09:30,10:15,Mr Huw Dimond,0014J00000Fz9YpQAJ,Male,a0O2000000AeJHTEA3,a0WPz00000MpjVBMAZ
 cheltenham,Monday 14 September 2026,True,13:00,13:45,Mr Daniel Blijweert,001Pz00000orL6OIAU,Male,a0O2000000AeJHTEA3,a0WPz00000M1qukMAB
-cheltenham,Monday 14 September 2026,True,15:30,16:15,Mr Daniel Blijweert,001Pz00000orL6OIAU,Male,a0O2000000AeJHTEA3,a0WPz00000M1qukMAB
+cheltenham,Monday 14 September 2026,True,14:30,15:15,Mr Daniel Blijweert,001Pz00000orL6OIAU,Male,a0O2000000AeJHTEA3,a0WPz00000M1qukMAB
 cheltenham,Monday 14 September 2026,True,16:00,16:45,Mr Huw Dimond,0014J00000Fz9YpQAJ,Male,a0O2000000AeJHTEA3,a0WPz00000MpjVaMAJ
 cheltenham,Monday 14 September 2026,True,15:30,16:15,Miss Emma Lewis,001Pz00000HaAn6IAF,Female,a0O2000000AeJHTEA3,a0WPz00000OkmtsMAB
 cheltenham,Tuesday 15 September 2026,True,10:00,10:45,Miss Vikita Parmar,0014J00000svQ3jQAE,Female,a0O2000000AeJHTEA3,a0WPz00000MVmQTMA1
@@ -186,12 +206,10 @@ cheltenham,Friday 18 September 2026,True,13:45,14:30,Mr Huw Dimond,0014J00000Fz9
 cheltenham,Monday 21 September 2026,True,16:30,17:15,Mr Huw Dimond,0014J00000Fz9YpQAJ,Male,a0O2000000AeJHTEA3,a0WPz00000MpjVbMAJ
 cheltenham,Monday 21 September 2026,True,14:30,15:15,Miss Emma Lewis,001Pz00000HaAn6IAF,Female,a0O2000000AeJHTEA3,a0WPz00000OkmttMAB
 cheltenham,Monday 21 September 2026,True,15:15,16:00,Miss Emma Lewis,001Pz00000HaAn6IAF,Female,a0O2000000AeJHTEA3,a0WPz00000OkmttMAB
-chester,Thursday 10 September 2026,True,11:00,11:45,Miss Jemmah Campbell,0012X00001qXEqBQAW,Female,a0Ow000000EqzH3EAJ,a0WPz00000UDDLRMA5
 chester,Thursday 17 September 2026,True,09:00,09:45,Miss Jemmah Campbell,0012X00001qXEqBQAW,Female,a0Ow000000EqzH3EAJ,a0WPz00000UDDLSMA5
 chester,Friday 18 September 2026,True,14:00,14:45,Mrs Emily Procter,001w0000018t6U1AAI,Female,a0Ow000000EqzH3EAJ,a0WPz00000JshadMAB
 chester,Friday 18 September 2026,True,15:30,16:15,Mrs Emily Procter,001w0000018t6U1AAI,Female,a0Ow000000EqzH3EAJ,a0WPz00000JshadMAB
 chester,Friday 18 September 2026,True,16:15,17:00,Mrs Emily Procter,001w0000018t6U1AAI,Female,a0Ow000000EqzH3EAJ,a0WPz00000JshadMAB
-chester,Friday 18 September 2026,True,14:30,15:15,Miss Jemmah Campbell,0012X00001qXEqBQAW,Female,a0Ow000000EqzH3EAJ,a0WTw000003gSuEMAU
 chester,Monday 21 September 2026,True,14:30,15:15,Mrs Emily Procter,001w0000018t6U1AAI,Female,a0Ow000000EqzH3EAJ,a0WPz00000JsndcMAB
 chester,Monday 21 September 2026,True,15:15,16:00,Mrs Emily Procter,001w0000018t6U1AAI,Female,a0Ow000000EqzH3EAJ,a0WPz00000JsndcMAB
 chichester,Thursday 17 September 2026,True,08:15,09:00,Mr Dean Yeoman,001w00000160vB5AAI,Male,a0O2000000AeJCNEA3,a0WPz00000QcZ6BMAV
@@ -298,9 +316,10 @@ crawley,Tuesday 15 September 2026,True,14:15,15:00,Mrs Karina Hall,0014J00000j3u
 crawley,Tuesday 15 September 2026,True,15:15,16:00,Mrs Karina Hall,0014J00000j3usGQAQ,Female,a0O2000000AeJCnEAN,a0WPz00000XEW8KMAX
 crawley,Tuesday 15 September 2026,True,16:00,16:45,Mrs Karina Hall,0014J00000j3usGQAQ,Female,a0O2000000AeJCnEAN,a0WPz00000XEW8KMAX
 crawley,Tuesday 15 September 2026,True,16:45,17:30,Mrs Karina Hall,0014J00000j3usGQAQ,Female,a0O2000000AeJCnEAN,a0WPz00000XEW8KMAX
-crawley,Wednesday 16 September 2026,True,09:30,10:15,Mrs Karina Hall,0014J00000j3usGQAQ,Female,a0O2000000AeJCnEAN,a0WPz00000XEW8JMAX
-crawley,Wednesday 16 September 2026,True,10:15,11:00,Mrs Karina Hall,0014J00000j3usGQAQ,Female,a0O2000000AeJCnEAN,a0WPz00000XEW8JMAX
-crawley,Wednesday 16 September 2026,True,11:00,11:45,Mrs Karina Hall,0014J00000j3usGQAQ,Female,a0O2000000AeJCnEAN,a0WPz00000XEW8JMAX
+crawley,Wednesday 16 September 2026,True,09:00,09:45,Mrs Karina Hall,0014J00000j3usGQAQ,Female,a0O2000000AeJCnEAN,a0WPz00000XEW8JMAX
+crawley,Wednesday 16 September 2026,True,09:45,10:30,Mrs Karina Hall,0014J00000j3usGQAQ,Female,a0O2000000AeJCnEAN,a0WPz00000XEW8JMAX
+crawley,Wednesday 16 September 2026,True,10:30,11:15,Mrs Karina Hall,0014J00000j3usGQAQ,Female,a0O2000000AeJCnEAN,a0WPz00000XEW8JMAX
+crawley,Wednesday 16 September 2026,True,11:15,12:00,Mrs Karina Hall,0014J00000j3usGQAQ,Female,a0O2000000AeJCnEAN,a0WPz00000XEW8JMAX
 crawley,Thursday 17 September 2026,True,09:00,09:45,Mrs Karina Hall,0014J00000j3usGQAQ,Female,a0O2000000AeJCnEAN,a0WPz00000XEW8LMAX
 crawley,Thursday 17 September 2026,True,09:45,10:30,Mrs Karina Hall,0014J00000j3usGQAQ,Female,a0O2000000AeJCnEAN,a0WPz00000XEW8LMAX
 crawley,Thursday 17 September 2026,True,10:30,11:15,Mrs Karina Hall,0014J00000j3usGQAQ,Female,a0O2000000AeJCnEAN,a0WPz00000XEW8LMAX
@@ -356,6 +375,7 @@ derby,Monday 21 September 2026,True,15:30,16:15,Mr Arjun Tarun,001Pz00000WpHvrIA
 devonshire,Tuesday 8 September 2026,True,14:30,15:15,Mr Adam Yates,0014J00000lAmruQAC,Male,a0Ow000000KKrHnEAL,a0WPz00000S11H2MAJ
 devonshire,Thursday 10 September 2026,True,09:30,10:15,Mr Adam Yates,0014J00000lAmruQAC,Male,a0Ow000000KKrHnEAL,a0WPz00000LZhnEMAT
 devonshire,Thursday 10 September 2026,True,10:15,11:00,Mr Adam Yates,0014J00000lAmruQAC,Male,a0Ow000000KKrHnEAL,a0WPz00000LZhnEMAT
+devonshire,Thursday 10 September 2026,True,13:00,13:45,Mr Adam Yates,0014J00000lAmruQAC,Male,a0Ow000000KKrHnEAL,a0WPz00000LZibZMAT
 devonshire,Friday 11 September 2026,True,09:15,10:00,Mr Adam Yates,0014J00000lAmruQAC,Male,a0Ow000000KKrHnEAL,a0WPz00000LZhnFMAT
 devonshire,Monday 14 September 2026,True,08:45,09:30,Mr Adam Yates,0014J00000lAmruQAC,Male,a0Ow000000KKrHnEAL,a0WPz00000LZhnGMAT
 devonshire,Tuesday 15 September 2026,True,08:45,09:30,Mr Adam Yates,0014J00000lAmruQAC,Male,a0Ow000000KKrHnEAL,a0WPz00000S11GbMAJ
@@ -387,8 +407,6 @@ didsbury,Friday 18 September 2026,True,10:00,10:45,Mr Michael Eachus,001Pz00000z
 didsbury,Friday 18 September 2026,True,12:30,13:15,Mr Michael Eachus,001Pz00000zGcBIIA0,Male,a0Ow000000KKrHfEAL,a0WPz00000SX1KEMA1
 didsbury,Friday 18 September 2026,True,13:15,14:00,Mr Michael Eachus,001Pz00000zGcBIIA0,Male,a0Ow000000KKrHfEAL,a0WPz00000SX1KEMA1
 edinburgh,Friday 18 September 2026,True,10:30,11:15,Mr Andy (treats 16+) McKay,001w000001YBdL9AAL,Male,a0O2000000AfgGkEAJ,a0WPz00000SiPnYMAV
-edinburgh-fountain-park,Tuesday 8 September 2026,True,16:30,17:15,Ms Alexandra (treats 18+) Bailey,001Pz00000llDOjIAM,Female,a0Ow000000KKrHoEAL,a0WPz00000SXIEbMAP
-edinburgh-fountain-park,Tuesday 8 September 2026,True,18:15,19:00,Ms Alexandra (treats 18+) Bailey,001Pz00000llDOjIAM,Female,a0Ow000000KKrHoEAL,a0WPz00000SXIEbMAP
 edinburgh-omni,Monday 14 September 2026,True,19:15,20:00,Mr Jason Varty,001w000001YAc4HAAT,Male,a0Ow000000KKm7VEAT,a0WPz00000RFJ6qMAH
 edinburgh-omni,Tuesday 15 September 2026,True,09:00,09:45,Mr Alex (treats 10+) Howarth,0014J00000Ap6KsQAJ,Male,a0Ow000000KKm7VEAT,a0WPz00000RVAdDMAX
 edinburgh-omni,Thursday 17 September 2026,True,14:45,15:30,Fiona (treats 14+) Robertson,001Pz00000EHRJyIAP,Female,a0Ow000000KKm7VEAT,a0WPz00000SbOKjMAN
@@ -428,8 +446,7 @@ farnborough,Friday 18 September 2026,True,11:30,12:15,Mrs Lisa Corbett-Webb,0012
 farnborough,Monday 21 September 2026,True,13:00,13:45,Mrs Lisa Corbett-Webb,0012X00001vIdU1QAK,Female,a0Ow000000KKqUxEAL,a0WPz00000TywYLMAZ
 farnborough,Monday 21 September 2026,True,13:45,14:30,Mrs Lisa Corbett-Webb,0012X00001vIdU1QAK,Female,a0Ow000000KKqUxEAL,a0WPz00000TywYLMAZ
 farnham,Thursday 10 September 2026,True,10:00,10:45,Mrs Helen Jermy,001Pz00000IkFTBIA3,Female,a0O2000000AeJDXEA3,a0WPz00000Sb58qMAB
-glasgow-hospital,Tuesday 8 September 2026,True,14:30,15:15,Mrs Claire Beckett,00120000012fi2jAAA,Female,a0O2000000AeJHXEA3,a0WPz00000U5wIpMAJ
-glasgow-hospital,Wednesday 16 September 2026,True,08:45,09:30,Mrs Claire Beckett,00120000012fi2jAAA,Female,a0O2000000AeJHXEA3,a0WPz00000U5wIaMAJ
+glasgow-hospital,Tuesday 8 September 2026,True,14:45,15:30,Mrs Claire Beckett,00120000012fi2jAAA,Female,a0O2000000AeJHXEA3,a0WPz00000U5wIpMAJ
 glasgow-hospital,Thursday 17 September 2026,True,08:30,09:15,Mr Chris Tung,0014J00000fERc2QAG,Male,a0O2000000AeJHXEA3,a0WPz00000Ru5wJMAR
 glasgow-hospital,Monday 21 September 2026,True,18:00,18:45,Mr Raghu Mudivarthy,00120000010v5HVAAY,Male,a0O2000000AeJHXEA3,a0WPz00000XBrE7MAL
 glasgow-hospital,Monday 21 September 2026,True,19:30,20:15,Mr Raghu Mudivarthy,00120000010v5HVAAY,Male,a0O2000000AeJHXEA3,a0WPz00000XBrE7MAL
@@ -527,7 +544,6 @@ haywards-heath,Wednesday 16 September 2026,True,11:30,12:15,Mr Steven Bannister 
 haywards-heath,Wednesday 16 September 2026,True,12:15,13:00,Mr Steven Bannister (16yrs+),00120000010MTr6AAG,Male,a0O2000000AeJHZEA3,a0WPz00000VVNEjMAP
 haywards-heath,Wednesday 16 September 2026,True,13:00,13:45,Mr Joshua Petty (18yrs+),0014J00000LCxqVQAT,Male,a0O2000000AeJHZEA3,a0WPz00000VVjEUMA1
 haywards-heath,Wednesday 16 September 2026,True,13:45,14:30,Mr Joshua Petty (18yrs+),0014J00000LCxqVQAT,Male,a0O2000000AeJHZEA3,a0WPz00000VVjEUMA1
-haywards-heath,Wednesday 16 September 2026,True,15:30,16:15,Mr Joshua Petty (18yrs+),0014J00000LCxqVQAT,Male,a0O2000000AeJHZEA3,a0WPz00000VVjEUMA1
 haywards-heath,Wednesday 16 September 2026,True,16:30,17:15,Mr Steven Bannister (16yrs+),00120000010MTr6AAG,Male,a0O2000000AeJHZEA3,a0WPz00000VVNF4MAP
 haywards-heath,Thursday 17 September 2026,True,16:15,17:00,Mr Steven Bannister (16yrs+),00120000010MTr6AAG,Male,a0O2000000AeJHZEA3,a0WPz00000VViL6MAL
 haywards-heath,Monday 21 September 2026,True,14:30,15:15,Mr Joshua Petty (18yrs+),0014J00000LCxqVQAT,Male,a0O2000000AeJHZEA3,a0WPz00000VVjEvMAL
@@ -640,8 +656,7 @@ leeds,Wednesday 16 September 2026,True,14:45,15:30,Mr Anthony Burns,001w000001BX
 leeds,Wednesday 16 September 2026,True,16:30,17:15,Mr Anthony Burns,001w000001BXUxrAAH,Male,a0O2000000AeJHdEAN,a0WPz00000HO37hMAD
 leeds,Wednesday 16 September 2026,True,18:00,18:45,Mr Anthony Burns,001w000001BXUxrAAH,Male,a0O2000000AeJHdEAN,a0WPz00000HO37hMAD
 leeds,Thursday 17 September 2026,True,08:45,09:30,Miss Jen Willingham,00120000010rxPVAAY,Female,a0O2000000AeJHdEAN,a0WPz00000JuajMMAR
-leeds,Thursday 17 September 2026,True,09:15,10:00,Ms Emily Jackson,0012X00001nRFxBQAW,Female,a0O2000000AeJHdEAN,a0WPz00000PZ1tdMAD
-leeds,Thursday 17 September 2026,True,10:00,10:45,Ms Emily Jackson,0012X00001nRFxBQAW,Female,a0O2000000AeJHdEAN,a0WPz00000PZ1tdMAD
+leeds,Thursday 17 September 2026,True,10:15,11:00,Ms Emily Jackson,0012X00001nRFxBQAW,Female,a0O2000000AeJHdEAN,a0WPz00000PZ1tdMAD
 leeds,Thursday 17 September 2026,True,08:30,09:15,Mr Laurence Wharmby,001w000001H1Mo8AAF,Male,a0O2000000AeJHdEAN,a0WPz00000RD2mnMAD
 leeds,Thursday 17 September 2026,True,09:15,10:00,Mr Laurence Wharmby,001w000001H1Mo8AAF,Male,a0O2000000AeJHdEAN,a0WPz00000RD2mnMAD
 leeds,Thursday 17 September 2026,True,10:00,10:45,Mr Laurence Wharmby,001w000001H1Mo8AAF,Male,a0O2000000AeJHdEAN,a0WPz00000RD2mnMAD
@@ -819,7 +834,6 @@ moorgate,Monday 21 September 2026,True,10:30,11:15,Mrs Emily Potter,00120000010v
 moorgate,Monday 21 September 2026,True,13:00,13:45,Mrs Emily Potter,00120000010v5k1AAA,Female,a0Ow000000GSYngEAH,a0WPz00000Qz1k5MAB
 moorgate,Monday 21 September 2026,True,13:45,14:30,Mrs Emily Potter,00120000010v5k1AAA,Female,a0Ow000000GSYngEAH,a0WPz00000Qz1k5MAB
 moorgate,Monday 21 September 2026,True,14:30,15:15,Mrs Emily Potter,00120000010v5k1AAA,Female,a0Ow000000GSYngEAH,a0WPz00000Qz1k5MAB
-newbury,Thursday 10 September 2026,True,10:15,11:00,Mrs Cathy Godwin,0014J00000his6HQAQ,Female,a0O2000000AeJH2EAN,a0WPz00000UQ1kAMAT
 newbury,Tuesday 15 September 2026,True,08:30,09:15,Mrs Cathy Godwin,0014J00000his6HQAQ,Female,a0O2000000AeJH2EAN,a0WPz00000UQ1jzMAD
 newbury,Tuesday 15 September 2026,True,09:15,10:00,Mrs Cathy Godwin,0014J00000his6HQAQ,Female,a0O2000000AeJH2EAN,a0WPz00000UQ1jzMAD
 newbury,Tuesday 15 September 2026,True,10:30,11:15,Mrs Cathy Godwin,0014J00000his6HQAQ,Female,a0O2000000AeJH2EAN,a0WPz00000UQ1jzMAD
@@ -1195,7 +1209,6 @@ tees,Monday 21 September 2026,True,15:45,16:30,Mr Charlie Yeoman,0014J00000U6nJu
 the-vale,Friday 18 September 2026,True,08:00,08:45,Mr Richard Wood,001w000001dulP2AAI,Male,a0O2000000AeJMNEA3,a0WTw000003epZxMAI
 the-vale,Friday 18 September 2026,True,10:30,11:15,Mr Richard Wood,001w000001dulP2AAI,Male,a0O2000000AeJMNEA3,a0WTw000003epZxMAI
 the-vale,Friday 18 September 2026,True,11:15,12:00,Mr Richard Wood,001w000001dulP2AAI,Male,a0O2000000AeJMNEA3,a0WTw000003epZxMAI
-the-vale,Monday 21 September 2026,True,15:30,16:15,Mr Richard Wood,001w000001dulP2AAI,Male,a0O2000000AeJMNEA3,a0WPz00000SEkWJMA1
 tunbridge-wells,Friday 11 September 2026,True,10:30,11:15,Ms Amy Cakebread 14yrs +,001Pz0000038zMOIAY,Female,a0O2000000AeJHnEAN,a0WPz00000ShKt2MAF
 tunbridge-wells,Monday 21 September 2026,True,10:15,11:00,Mr Edward Colborn 12yrs +,0014J00000aT9kyQAC,Male,a0O2000000AeJHnEAN,a0WPz00000SguYrMAJ
 tunbridge-wells,Monday 21 September 2026,True,11:30,12:15,Mr Edward Colborn 12yrs +,0014J00000aT9kyQAC,Male,a0O2000000AeJHnEAN,a0WPz00000SguYrMAJ
@@ -1209,6 +1222,7 @@ west-byfleet,Thursday 17 September 2026,True,08:30,09:15,Ms Lisa Rossouw,0012000
 west-byfleet,Thursday 17 September 2026,True,13:30,14:15,Ms Lisa Rossouw,00120000010rxgWAAQ,Female,a0O2000000AeJMbEAN,a0WPz00000JTKFNMA5
 west-byfleet,Thursday 17 September 2026,True,14:15,15:00,Ms Lisa Rossouw,00120000010rxgWAAQ,Female,a0O2000000AeJMbEAN,a0WPz00000JTKFNMA5
 woking,Wednesday 9 September 2026,True,11:00,11:45,Miss Gemma Hendry,001Pz00000J5K1hIAF,Female,a0O2000000AeJHoEAN,a0WPz00000VILYsMAP
+woking,Wednesday 16 September 2026,True,14:30,15:15,Mrs Sharon Helsby (MSK & Pelvic Health),00120000010rxX0AAI,Female,a0O2000000AeJHoEAN,a0WPz00000HvPBQMA3
 barbican-medical-centre,Tuesday 8 September 2026,True,15:00,15:45,Mr Vladislav Bubnov,001w0000018E8MqAAK,Male,a0O4J00000AMxsCUAT,a0WPz00000Sbsm9MAB
 barbican-medical-centre,Tuesday 8 September 2026,True,14:30,15:15,Kunal Sedani,0014J00000mhGIFQA2,Male,a0O4J00000AMxsCUAT,a0WPz00000SiO4GMAV
 barbican-medical-centre,Wednesday 9 September 2026,True,12:15,13:00,Kunal Sedani,0014J00000mhGIFQA2,Male,a0O4J00000AMxsCUAT,a0WPz00000SiO3eMAF
