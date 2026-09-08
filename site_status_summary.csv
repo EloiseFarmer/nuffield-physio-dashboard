@@ -1,13 +1,12 @@
 site_slug,status,total_slots_found,next_available_date,days_until_available,physio_count_with_availability
 aberdeen,has_availability,19,Thursday 10 September 2026,2.0,1
 aylesbury,has_availability,6,Tuesday 15 September 2026,7.0,1
-london-battersea,has_availability,28,Thursday 10 September 2026,2.0,1
-bishops-stortford,zero_availability,0,,,0
+london-battersea,has_availability,29,Wednesday 09 September 2026,1.0,1
 london-bloomsbury,has_availability,4,Thursday 10 September 2026,2.0,1
 bolton,has_availability,10,Tuesday 08 September 2026,0.0,1
 bournemouth,has_availability,6,Tuesday 08 September 2026,0.0,3
 brentwood,zero_availability,0,,,0
-brighton,has_availability,26,Tuesday 08 September 2026,0.0,1
+brighton,has_availability,25,Wednesday 09 September 2026,1.0,1
 bristol-clifton,has_availability,3,Monday 21 September 2026,13.0,2
 bristol,zero_availability,0,,,0
 bristol-north,has_availability,3,Friday 18 September 2026,10.0,2
@@ -16,7 +15,6 @@ brondesbury-park,has_availability,8,Friday 18 September 2026,10.0,1
 cambridge-gym,has_availability,10,Tuesday 15 September 2026,7.0,3
 cannock,zero_availability,0,,,0
 cardiff-bay,zero_availability,0,,,0
-cheam,zero_availability,0,,,0
 chelmsford,zero_availability,0,,,0
 cheltenham,has_availability,54,Wednesday 09 September 2026,1.0,9
 chester,has_availability,8,Thursday 10 September 2026,2.0,2
@@ -27,7 +25,7 @@ chingford,has_availability,4,Wednesday 09 September 2026,1.0,1
 chislehurst,zero_availability,0,,,0
 cottingley,has_availability,15,Wednesday 09 September 2026,1.0,1
 covent-garden,has_availability,46,Tuesday 08 September 2026,0.0,2
-crawley,has_availability,60,Tuesday 08 September 2026,0.0,2
+crawley,has_availability,58,Tuesday 08 September 2026,0.0,2
 croydon,zero_availability,0,,,0
 croydon-central,has_availability,5,Thursday 10 September 2026,2.0,1
 cwmbran,has_availability,9,Wednesday 09 September 2026,1.0,1
@@ -42,7 +40,7 @@ edinburgh-fountain-park,has_availability,2,Tuesday 08 September 2026,0.0,1
 edinburgh-omni,has_availability,8,Monday 14 September 2026,6.0,3
 enfield,has_availability,23,Wednesday 09 September 2026,1.0,1
 exeter,zero_availability,0,,,0
-farnborough,has_availability,8,Tuesday 15 September 2026,7.0,1
+farnborough,has_availability,7,Tuesday 15 September 2026,7.0,1
 farnham,has_availability,1,Thursday 10 September 2026,2.0,1
 friern-barnet-london,zero_availability,0,,,0
 glasgow-giffnock,zero_availability,0,,,0
@@ -54,8 +52,8 @@ guildford-gym,zero_availability,0,,,0
 guildford,zero_availability,0,,,0
 guiseley,has_availability,6,Monday 21 September 2026,13.0,1
 hampshire,has_availability,23,Thursday 10 September 2026,2.0,5
-harrogate,has_availability,28,Wednesday 09 September 2026,1.0,2
-haywards-heath,has_availability,18,Friday 11 September 2026,3.0,4
+harrogate,has_availability,27,Wednesday 09 September 2026,1.0,2
+haywards-heath,has_availability,16,Monday 14 September 2026,6.0,3
 hemel-hempstead,has_availability,6,Friday 18 September 2026,10.0,1
 london-hendon,zero_availability,0,,,0
 hereford,has_availability,20,Wednesday 09 September 2026,1.0,1
@@ -66,7 +64,7 @@ kingston,has_availability,26,Monday 14 September 2026,6.0,2
 leamington-spa,has_availability,7,Tuesday 08 September 2026,0.0,3
 leatherhead,zero_availability,0,,,0
 leeds-gym,zero_availability,0,,,0
-leeds,has_availability,78,Wednesday 09 September 2026,1.0,7
+leeds,has_availability,76,Wednesday 09 September 2026,1.0,7
 leicester-gym,has_availability,1,Wednesday 09 September 2026,1.0,1
 leicester,has_availability,3,Thursday 10 September 2026,2.0,1
 letchworth,has_availability,3,Tuesday 15 September 2026,7.0,1
@@ -78,7 +76,7 @@ mihp,has_availability,15,Wednesday 09 September 2026,1.0,1
 manchester-printworks,zero_availability,0,,,0
 milngavie,has_availability,5,Friday 18 September 2026,10.0,1
 milton-keynes,has_availability,12,Wednesday 09 September 2026,1.0,1
-moorgate,has_availability,41,Wednesday 09 September 2026,1.0,3
+moorgate,has_availability,40,Wednesday 09 September 2026,1.0,3
 newbury,has_availability,18,Thursday 10 September 2026,2.0,2
 newcastle,has_availability,18,Thursday 17 September 2026,9.0,4
 newcastle-under-lyme,zero_availability,0,,,0
@@ -97,7 +95,7 @@ reading,has_availability,11,Friday 11 September 2026,3.0,1
 romford,has_availability,25,Thursday 10 September 2026,2.0,1
 rugby,has_availability,11,Thursday 10 September 2026,2.0,1
 sheffield,has_availability,34,Wednesday 09 September 2026,1.0,2
-shipley,has_availability,7,Thursday 10 September 2026,2.0,1
+shipley,has_availability,6,Thursday 10 September 2026,2.0,1
 shoreditch,has_availability,5,Tuesday 08 September 2026,0.0,1
 shrewsbury,has_availability,13,Thursday 17 September 2026,9.0,3
 st-albans,has_availability,34,Wednesday 09 September 2026,1.0,2
@@ -123,8 +121,8 @@ wolverhampton-gym,zero_availability,0,,,0
 wolverhampton,zero_availability,0,,,0
 york,zero_availability,0,,,0
 barbican-medical-centre,has_availability,36,Tuesday 08 September 2026,0.0,3
-warwick,has_availability,33,Thursday 10 September 2026,2.0,1
+warwick,has_availability,34,Thursday 10 September 2026,2.0,1
 hertford,zero_availability,0,,,0
 medway,has_availability,2,Thursday 17 September 2026,9.0,1
 wimbledon,zero_availability,0,,,0
-birmingham-rubery,has_availability,17,Wednesday 09 September 2026,1.0,1
+birmingham-rubery,has_availability,18,Wednesday 09 September 2026,1.0,1
