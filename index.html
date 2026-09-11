@@ -209,6 +209,8 @@
       <th data-sort="days">Next available</th>
       <th class="num" data-sort="slots7">Slots (7 days)</th>
       <th class="num" data-sort="slots14">Slots (2 wks)</th>
+      <th class="num" data-sort="web_visits">Web Visits (Aug)</th>
+      <th class="num" data-sort="utilisation">Utilisation</th>
       <th>Links</th>
     </tr>
   </thead>
@@ -252,6 +254,8 @@ function render() {
       case "days":
         av = a.days_until_available ?? 9999; bv = b.days_until_available ?? 9999; break;
       case "slots14": av = a.slots_14_days; bv = b.slots_14_days; break;
+      case "web_visits": av = a.web_visits_august ?? -1; bv = b.web_visits_august ?? -1; break;
+      case "utilisation": av = a.utilisation ?? -1; bv = b.utilisation ?? -1; break;
       case "slots7": av = a.slots_7_days; bv = b.slots_7_days; break;
       case "total_physios": av = a.total_physios; bv = b.total_physios; break;
       case "physios": av = a.physios_with_slots; bv = b.physios_with_slots; break;
@@ -278,6 +282,8 @@ function render() {
           : '<span class="next-avail none">No online slots</span>'}</td>
       <td class="num"><span class="pill ${pillClass(s.slots_7_days)}">${s.slots_7_days}</span></td>
       <td class="num"><span class="pill ${pillClass(s.slots_14_days)}">${s.slots_14_days}</span></td>
+      <td class="num">${s.web_visits_august != null ? s.web_visits_august : '<span style="color:var(--ink-soft)">-</span>'}</td>
+      <td class="num">${s.utilisation != null ? s.utilisation : '<span style="color:var(--ink-soft)">-</span>'}</td>
       <td class="links">
         ${s.online_booking
           ? `<a class="book" href="${s.book_url}" target="_blank" rel="noopener">📅 Book now</a>`
@@ -294,6 +300,7 @@ function buildKpis() {
     { num: s.total_sites, lbl: "Total sites" },
     { num: s.total_physios_listed, lbl: "Total physios listed", cls: "green" },
     { num: s.sites_with_online_booking, lbl: "Sites with online booking" },
+    { num: s.sites_with_slots_7_days, lbl: "Sites with slots (7 days)" },
     { num: s.sites_with_slots_14_days, lbl: "Sites with slots (2 wks)" },
     { num: s.total_appointments_14_days, lbl: "Total appointments (2 wks)" },
     { num: s.total_appointments_7_days, lbl: "Total appointments (7 days)" },

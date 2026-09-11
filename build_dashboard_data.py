@@ -74,6 +74,7 @@ output = {
         "total_sites": len(records),
         "total_physios_listed": int(merged["total_physios"].sum()),
         "sites_with_online_booking": int((merged["status"] != "no_online_booking").sum()),
+        "sites_with_slots_7_days": int((merged["slots_7_days"] > 0).sum()),
         "sites_with_slots_14_days": int((merged["slots_14_days"] > 0).sum()),
         "total_appointments_14_days": int(merged["slots_14_days"].sum()),
         "total_appointments_7_days": int(merged["slots_7_days"].sum()),
