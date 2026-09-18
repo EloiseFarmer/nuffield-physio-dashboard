@@ -79,6 +79,7 @@ output = {
         "total_appointments_14_days": int(merged["slots_14_days"].sum()),
         "total_appointments_7_days": int(merged["slots_7_days"].sum()),
         "pct_no_appt_7_days": round(100 * (merged["slots_7_days"] == 0).sum() / len(merged), 1),
+        "avg_days_until_available": round(merged.loc[merged["status"] == "has_availability", "days_until_available"].mean(), 1),
     }
 }
 
